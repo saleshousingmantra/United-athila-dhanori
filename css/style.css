@@ -574,3 +574,19 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 .modal-box .success-message, .modal-box .success-message strong { color: #fff; }
 .modal-box .field-error { color: #ffb4a8; }
 .consent .ic { margin-right: 4px; }
+
+/* ===== Compact forms (all enquiry forms) ===== */
+.lead-form h2, .lead-form h3 { font-size: 19px; margin-bottom: 8px; }
+.form-meta { padding: 6px 8px; margin-bottom: 10px; }
+.form-meta b { font-size: 12px; }
+.form-meta small { font-size: 9px; }
+.field-grid { gap: 8px; margin-bottom: 10px; }
+.field label, .lead-form .field label { font-size: 11px; margin-bottom: 3px; }
+.field input, .field select { height: 38px; padding: 0 11px; font-size: 14px; border-radius: 8px; }
+.lead-form .btn-block, .modal-box .btn-gold, .cta .btn-gold { padding: 10px 18px; font-size: 15px; }
+.consent { font-size: 11px; margin-top: 6px; }
+.modal-box h2 { font-size: 21px; }
+.modal-logo { width: 46px; height: 46px; }
+@media (max-width: 767px) {
+  .field input, .field select { height: 38px; font-size: 14px; padding: 0 10px; }
+}
