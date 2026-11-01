@@ -546,3 +546,31 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 .thanks-logo { width: 180px; height: auto; margin: 0 auto 10px; }
 @media (min-width: 768px) { .brand-logo { height: 52px; } }
 @media (max-width: 767px) { .footer-logo { width: 150px; } }
+
+/* ===== FAQ centered ===== */
+.faq summary { justify-content: center; text-align: center; position: relative; padding-inline: 26px; }
+.faq summary .chev { position: absolute; right: 0; top: 50%; margin-top: -.6em; }
+.faq details[open] summary .chev { transform: rotate(180deg); }
+.faq p { text-align: center; padding-bottom: 4px; }
+
+/* ===== Popup in site theme (green + gold) ===== */
+.modal-overlay { background: rgba(4, 28, 24, .72); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
+.modal-box { background: radial-gradient(120% 90% at 100% 0%, var(--green-2) 0%, var(--green) 50%, var(--green-3) 100%); color: #fff; border-top: 4px solid var(--gold); border-radius: 22px; box-shadow: 0 30px 70px rgba(0,0,0,.45); padding: 24px 18px 18px; }
+.modal-head { gap: 6px; margin-bottom: 14px; }
+.modal-logo { width: 56px; height: 56px; filter: drop-shadow(0 4px 14px rgba(242,182,50,.35)); }
+.modal-head .eyebrow { color: var(--gold); }
+.modal-box h2 { color: #fff; font-size: 24px; }
+.modal-close { background: rgba(255,255,255,.12); color: #fff; }
+.modal-close:hover { background: var(--gold); color: #1d1a10; }
+.modal-box .form-meta { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.18); }
+.modal-box .form-meta b { color: #fff; }
+.modal-box .form-meta small { color: rgba(255,255,255,.65); }
+.modal-box .form-meta .ic { color: var(--gold); }
+.modal-box .field label { color: rgba(255,255,255,.78); }
+.modal-box .field input, .modal-box .field select { background: #fff; border-color: transparent; }
+.modal-box .btn-gold { font-size: 16px; padding: 13px 22px; }
+.modal-box .consent { color: rgba(255,255,255,.7); }
+.modal-box .consent .ic { color: var(--gold); }
+.modal-box .success-message, .modal-box .success-message strong { color: #fff; }
+.modal-box .field-error { color: #ffb4a8; }
+.consent .ic { margin-right: 4px; }
