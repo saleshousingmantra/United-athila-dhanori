@@ -13,7 +13,7 @@
   <meta name="publisher" content="United Landmarks LLP">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="googlebot" content="index, follow">
-  <meta name="theme-color" content="#1c3439">
+  <meta name="theme-color" content="#0d4a42">
   <meta name="format-detection" content="telephone=yes">
   <link rel="canonical" href="https://www.example.com/">
   <link rel="alternate" hreflang="en-IN" href="https://www.example.com/">
@@ -271,22 +271,21 @@
   <header class="site-header nav" id="top">
     <div class="container header-inner">
       <a href="#top" class="brand" aria-label="United Athila, Dhanori home">
-        <span class="brand-mark" aria-hidden="true">UA</span>
-        <span class="brand-text"><strong>United Athila</strong><small>Dhanori · United Landmarks LLP</small></span>
+        <span class="brand-mark" aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-towers"/></svg></span>
+        <span class="brand-text"><strong>UNITED <b>ATHILA</b></strong><small>Dhanori · United Landmarks LLP</small></span>
       </a>
       <nav class="main-nav" id="mainNav" aria-label="Primary">
         <ul>
           <li><a href="#overview">Overview</a></li>
-          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#configurations">Pricing</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#floor-plans">Floor Plans</a></li>
           <li><a href="#amenities">Amenities</a></li>
           <li><a href="#location">Location</a></li>
-          <li><a href="#rera">RERA</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a href="tel:+919699466495" data-config-phone class="btn btn-gold btn-sm header-cta"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call Now</a>
+      <a href="tel:+919699466495" data-config-phone class="call-btn" aria-label="Call now"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Call Now</span></a>
       <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
         <span></span><span></span><span></span>
       </button>
@@ -302,32 +301,23 @@
       </div>
       <div class="container hero-grid">
         <div class="hero-copy rv">
-          <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>Exclusive Private Preview · Pre-Launch</p>
-          <h1 id="heroTitle">United Athila<span class="h1-sub">Dhanori, East Pune</span></h1>
-          <p class="by-line">by <strong>United Landmarks LLP</strong></p>
-          <p class="tagline">Where premium living meets modern convenience. 2, 2.5 &amp; 3 BHK residences and premium commercial spaces next to the 108-acre Dhanori Central development.</p>
-
-          <ul class="hero-facts">
-            <li><svg class="ic" aria-hidden="true"><use href="#i-land"/></svg><span><strong>4.25</strong> Acres</span></li>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-building"/></svg><span><strong>700+</strong> Units</span></li>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-towers"/></svg><span><strong>4</strong> Towers</span></li>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-sparkle"/></svg><span><strong>20+</strong> Amenities</span></li>
+          <p class="badge-pill"><span class="pulse" aria-hidden="true"></span>Pre-Launch in East Pune</p>
+          <h1 id="heroTitle"><span class="h1-a">United</span> <span class="h1-b">Athila</span></h1>
+          <p class="tagline">Premium 2, 2.5 &amp; 3 BHK Residences<br>at Dhanori Central, East Pune</p>
+          <ul class="hero-points">
+            <li><svg class="ic" aria-hidden="true"><use href="#i-building"/></svg><span>2, 2.5 &amp; 3 BHK<br>Apartments</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-sparkle"/></svg><span>20+ Lifestyle<br>Amenities</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>Prime<br>Location</span></li>
           </ul>
-
-          <div class="hero-price">
-            <span>All-inclusive from</span>
-            <strong>₹84.58 Lakh*</strong>
-          </div>
+          <div class="price-box"><small>All-inclusive from</small><strong>₹ 84.58 Lakh*</strong></div>
           <div class="hero-actions">
-            <button class="btn btn-gold" data-open-modal><svg class="ic" aria-hidden="true"><use href="#i-tag"/></svg>Get Early-Bird Offer</button>
-            <a class="btn btn-ghost" href="#floor-plans"><svg class="ic" aria-hidden="true"><use href="#i-map"/></svg>View Floor Plans</a>
+            <button class="btn btn-gold" data-open-modal>Enquire Now<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+            <button class="btn btn-ghost" data-open-modal data-plan="2 BHK"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Get Cost Sheet</button>
           </div>
-          <a class="rera-chip" href="#rera"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>MahaRERA: <strong>PM1260002602534</strong></a>
         </div>
-
-        <div class="card form-card rv">
+        <div class="card form-card hero-form rv">
         <form class="lead-form" id="heroForm" novalidate>
-          <h2 id="heroFormTitle">Priority Inventory</h2>
+          <h2 id="heroFormTitle">Get <span class="hl">Early-Bird</span> Price</h2>
           <div class="form-meta">
             <span><svg class="ic" aria-hidden="true"><use href="#i-building"/></svg><span><small>Project</small><b data-config-text="PROJECT_NAME">United Athila, Dhanori</b></span></span>
             <span><svg class="ic" aria-hidden="true"><use href="#i-user"/></svg><span><small>Relationship Manager</small><b data-config-text="DEFAULT_MANAGER_NAME">Sneha</b></span></span>
@@ -366,106 +356,55 @@
       </div>
     </section>
 
-    <!-- ================= OVERVIEW ================= -->
-    <section class="section" id="overview" aria-labelledby="overviewTitle">
-      <div class="container two-col">
-        <div class="rv">
-          <p class="eyebrow dark">A Landmark in the Making</p>
-          <h2 id="overviewTitle" class="section-title">Premium homes &amp; business spaces in East Pune's growth corridor</h2>
-          <p>We are delighted to introduce the <strong>exclusive private preview</strong> of <strong>United Athila</strong> by United Landmarks LLP, an upcoming premium residential and commercial development at <strong>Dhanori Central, East Pune</strong>. Residences are planned around comfort, elegance and contemporary urban lifestyles.</p>
-          <p>The project sits next to the upcoming <strong>108-acre Dhanori Central</strong> development, with quick access to Pune Airport, Ramwadi Metro and major IT hubs.</p>
-          <ul class="feature-list">
-            <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-land"/></svg></span><div><strong>4.25 acre land parcel</strong><small>700+ planned homes and shops</small></div></li>
-            <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-towers"/></svg></span><div><strong>Towers G, H, I &amp; J</strong><small>Including refuge floors and upper ground amenities</small></div></li>
-            <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-store"/></svg></span><div><strong>Select commercial inventory</strong><small>For businesses, entrepreneurs and investors</small></div></li>
-            <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-tag"/></svg></span><div><strong>Early-bird opportunities</strong><small>Priority inventory for the first buyers</small></div></li>
-          </ul>
-        </div>
-        <figure class="overview-figure rv">
-          <button type="button" class="zoom" data-zoom="images/plans/master-layout-ground-floor.webp" data-alt="Master layout: ground floor" aria-label="Enlarge master layout">
-            <img src="images/plans/master-layout-ground-floor-thumb.webp" width="640" height="518" loading="lazy" decoding="async" alt="Master layout plan of United Athila, Dhanori showing towers and open spaces">
-            <span class="zoom-hint"><svg class="ic" aria-hidden="true"><use href="#i-zoom"/></svg>Tap to enlarge</span>
+    <!-- Trust strip -->
+    <div class="container">
+      <ul class="trust-strip rv">
+        <li><svg class="ic" aria-hidden="true"><use href="#i-building"/></svg><span><small>By</small>United Landmarks LLP</span></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg><span><small>MahaRERA</small>PM1260002602534</span></li>
+        <li class="hl-cell"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg><span><small>Status</small>Pre-Launch</span></li>
+      </ul>
+    </div>
+
+    <!-- ================= KEY HIGHLIGHTS ================= -->
+    <section class="section tight" id="highlights" aria-labelledby="hlTitle">
+      <div class="container">
+        <h2 id="hlTitle" class="title-line rv"><span>Key <span class="hl">Highlights</span></span></h2>
+        <ul class="stats rv">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-land"/></svg><strong data-count>4.25</strong><span>Acres</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-towers"/></svg><strong>4</strong><span>Towers</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-building"/></svg><strong data-count>700+</strong><span>Planned Units</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-sparkle"/></svg><strong data-count>20+</strong><span>Amenities</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= PRICING ================= -->
+    <section class="section band" id="configurations" aria-labelledby="configTitle">
+      <div class="container">
+        <h2 id="configTitle" class="section-title light rv">Configuration <span class="hl">&amp; Pricing</span></h2>
+        <p class="lead light rv">All-inclusive prices include stamp duty, registration and GST.</p>
+        <div class="price-list">
+          <button type="button" class="price-card rv" data-open-modal data-plan="2 BHK">
+            <span class="pc-ic"><svg class="ic" aria-hidden="true"><use href="#i-bed"/></svg></span>
+            <span class="pc-body"><strong>2 BHK</strong><span>779 – 843 sq.ft. carpet</span><em>₹ 84.58 Lakh*<small> Onwards</small></em></span>
+            <span class="pc-go"><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </button>
-          <figcaption>Master layout, ground floor</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- ================= GALLERY ================= -->
-    <section class="section gallery-section" id="gallery" aria-labelledby="galleryTitle">
-      <div class="container">
-        <div class="section-head rv">
-          <p class="eyebrow dark">Project Gallery</p>
-          <h2 id="galleryTitle" class="section-title">A glimpse of United Athila</h2>
-          <p class="lead">Tap an image to view it full size.</p>
+          <button type="button" class="price-card rv" data-open-modal data-plan="2.5 BHK">
+            <span class="pc-ic"><svg class="ic" aria-hidden="true"><use href="#i-bed"/></svg></span>
+            <span class="pc-body"><strong>2.5 BHK</strong><span>806 – 899 sq.ft. carpet</span><em>₹ 90.22 Lakh*<small> Onwards</small></em></span>
+            <span class="pc-go"><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          </button>
+          <button type="button" class="price-card rv" data-open-modal data-plan="3 BHK">
+            <span class="pc-ic"><svg class="ic" aria-hidden="true"><use href="#i-bed"/></svg></span>
+            <span class="pc-body"><strong>3 BHK</strong><span>918 – 1,059 sq.ft. carpet</span><em>₹ 99.63 Lakh*<small> Onwards</small></em></span>
+            <span class="pc-go"><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          </button>
+          <button type="button" class="price-card rv" data-open-modal data-plan="Commercial">
+            <span class="pc-ic"><svg class="ic" aria-hidden="true"><use href="#i-store"/></svg></span>
+            <span class="pc-body"><strong>Commercial</strong><span>Select inventory at Dhanori Central</span><em>On request</em></span>
+            <span class="pc-go"><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          </button>
         </div>
-        <div class="gallery-grid">
-          <figure class="gallery-item rv">
-            <button type="button" class="zoom" data-zoom="images/gallery/towers-courtyard-view.webp" data-alt="Towers and landscaped central courtyard (artist's impression)" aria-label="Enlarge towers and courtyard view">
-              <img src="images/gallery/towers-courtyard-view-thumb.webp" srcset="images/gallery/towers-courtyard-view-thumb.webp 640w, images/gallery/towers-courtyard-view-md.webp 960w" sizes="(min-width: 768px) 50vw, 100vw" width="640" height="401" loading="lazy" decoding="async" alt="United Athila Dhanori towers around a landscaped central courtyard with football turf and play areas, artist's impression">
-              <span class="zoom-hint"><svg class="ic" aria-hidden="true"><use href="#i-zoom"/></svg>View</span>
-            </button>
-            <figcaption><strong>Towers &amp; central courtyard</strong><small>Artist's impression</small></figcaption>
-          </figure>
-          <figure class="gallery-item rv">
-            <button type="button" class="zoom" data-zoom="images/gallery/pool-amenity-deck.webp" data-alt="Swimming pool and amenity deck (artist's impression)" aria-label="Enlarge swimming pool view">
-              <img src="images/gallery/pool-amenity-deck-thumb.webp" srcset="images/gallery/pool-amenity-deck-thumb.webp 640w, images/gallery/pool-amenity-deck-md.webp 960w" sizes="(min-width: 768px) 50vw, 100vw" width="640" height="327" loading="lazy" decoding="async" alt="Swimming pool with sun loungers and landscaped amenity deck at United Athila Dhanori, artist's impression">
-              <span class="zoom-hint"><svg class="ic" aria-hidden="true"><use href="#i-zoom"/></svg>View</span>
-            </button>
-            <figcaption><strong>Swimming pool &amp; amenity deck</strong><small>Artist's impression</small></figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= CONFIGURATIONS ================= -->
-    <section class="section alt" id="configurations" aria-labelledby="configTitle">
-      <div class="container">
-        <div class="section-head rv">
-          <p class="eyebrow dark">Residential · Elevated Living</p>
-          <h2 id="configTitle" class="section-title">Configurations &amp; Pricing</h2>
-          <p class="lead">All-inclusive prices include stamp duty, registration and GST.</p>
-        </div>
-        <div class="config-grid">
-          <article class="config-card rv">
-            <div class="config-top"><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-bed"/></svg></span><h3>2 BHK</h3></div>
-            <dl class="config-meta">
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-area"/></svg>Carpet</dt><dd>779 – 843 sq.ft.</dd></div>
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Agreement</dt><dd>from ₹75.25 L</dd></div>
-            </dl>
-            <p class="price"><small>All-inclusive from</small>₹84.58 L*</p>
-            <button class="btn btn-outline-dark btn-block" data-open-modal data-plan="2 BHK">Get Cost Sheet</button>
-          </article>
-          <article class="config-card featured rv">
-            <span class="badge">Most enquired</span>
-            <div class="config-top"><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-bed"/></svg></span><h3>2.5 BHK</h3></div>
-            <dl class="config-meta">
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-area"/></svg>Carpet</dt><dd>806 – 899 sq.ft.</dd></div>
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Agreement</dt><dd>from ₹80.29 L</dd></div>
-            </dl>
-            <p class="price"><small>All-inclusive from</small>₹90.22 L*</p>
-            <button class="btn btn-gold btn-block" data-open-modal data-plan="2.5 BHK">Get Cost Sheet</button>
-          </article>
-          <article class="config-card rv">
-            <div class="config-top"><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-bed"/></svg></span><h3>3 BHK</h3></div>
-            <dl class="config-meta">
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-area"/></svg>Carpet</dt><dd>918 – 1,059 sq.ft.</dd></div>
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Agreement</dt><dd>from ₹88.69 L</dd></div>
-            </dl>
-            <p class="price"><small>All-inclusive from</small>₹99.63 L*</p>
-            <button class="btn btn-outline-dark btn-block" data-open-modal data-plan="3 BHK">Get Cost Sheet</button>
-          </article>
-          <article class="config-card commercial rv">
-            <div class="config-top"><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-store"/></svg></span><h3>Commercial</h3></div>
-            <dl class="config-meta">
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Address</dt><dd>Dhanori Central</dd></div>
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg>For</dt><dd>Business &amp; investors</dd></div>
-            </dl>
-            <p class="price"><small>Select inventory</small>On request</p>
-            <button class="btn btn-outline-light btn-block" data-open-modal data-plan="Commercial">Enquire Now</button>
-          </article>
-        </div>
-
         <details class="cost-table rv">
           <summary><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>View detailed cost sheet<svg class="ic chev" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
           <div class="table-wrap">
@@ -493,17 +432,55 @@
       </div>
     </section>
 
+    <!-- ================= OVERVIEW ================= -->
+    <section class="section" id="overview" aria-labelledby="overviewTitle">
+      <div class="container">
+        <h2 id="overviewTitle" class="section-title rv">Project <span class="hl">Overview</span></h2>
+        <div class="overview rv">
+          <div class="ov-text">
+            <p>United Athila is an upcoming premium residential and commercial development by <strong>United Landmarks LLP</strong> at <strong>Dhanori Central, East Pune</strong>, on a 4.25 acre land parcel with 700+ planned homes and shops across Towers G, H, I &amp; J.</p>
+            <p>It sits next to the upcoming <strong>108-acre Dhanori Central</strong> development, with quick access to Pune Airport, Ramwadi Metro and major IT hubs.</p>
+          </div>
+          <button type="button" class="ov-media zoom" data-zoom="images/gallery/towers-courtyard-view.webp" data-alt="Towers and landscaped central courtyard (artist's impression)" aria-label="Enlarge towers view">
+            <img src="images/gallery/towers-courtyard-view-thumb.webp" width="640" height="401" loading="lazy" decoding="async" alt="United Athila Dhanori towers around a landscaped courtyard (artist's impression)">
+            <span class="zoom-hint"><svg class="ic" aria-hidden="true"><use href="#i-zoom"/></svg>View</span>
+          </button>
+        </div>
+        <ul class="feature-row rv">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-road"/></svg><strong>24 &amp; 30 m</strong><span>Wide Roads</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-tree"/></svg><strong>Landscaped</strong><span>Courtyard</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-store"/></svg><strong>Commercial</strong><span>Inventory</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-tag"/></svg><strong>Early-Bird</strong><span>Offers</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section band" id="gallery" aria-labelledby="galleryTitle">
+      <div class="container">
+        <h2 id="galleryTitle" class="section-title light rv">Project <span class="hl">Gallery</span></h2>
+        <div class="gallery-scroll rv">
+          <button type="button" class="g-item zoom" data-zoom="images/gallery/towers-courtyard-view.webp" data-alt="Towers and central courtyard (artist's impression)" aria-label="Enlarge towers and courtyard view">
+            <img src="images/gallery/towers-courtyard-view-md.webp" width="900" height="563" loading="lazy" decoding="async" alt="Towers and central courtyard at United Athila, Dhanori (artist's impression)"><span class="g-cap">Towers &amp; Courtyard</span>
+          </button>
+          <button type="button" class="g-item zoom" data-zoom="images/gallery/pool-amenity-deck.webp" data-alt="Swimming pool and amenity deck (artist's impression)" aria-label="Enlarge swimming pool view">
+            <img src="images/gallery/pool-amenity-deck-md.webp" width="900" height="460" loading="lazy" decoding="async" alt="Swimming pool and amenity deck at United Athila, Dhanori (artist's impression)"><span class="g-cap">Pool &amp; Amenity Deck</span>
+          </button>
+          <button type="button" class="g-item zoom" data-zoom="images/gallery/towers-facade.webp" data-alt="Central tower facade (artist's impression)" aria-label="Enlarge tower facade view">
+            <img src="images/gallery/towers-facade-md.webp" width="900" height="707" loading="lazy" decoding="async" alt="Facade of the central towers at United Athila, Dhanori (artist's impression)"><span class="g-cap">Tower Facade</span>
+          </button>
+        </div>
+        <p class="note light rv">Artist's impression. Tap any image to enlarge.</p>
+      </div>
+    </section>
+
     <!-- ================= FLOOR PLANS ================= -->
     <section class="section" id="floor-plans" aria-labelledby="plansTitle">
       <div class="container">
-        <div class="section-head rv">
-          <p class="eyebrow dark">Thoughtfully Planned</p>
-          <h2 id="plansTitle" class="section-title">Master Layout &amp; Floor Plans</h2>
-          <p class="lead">Tap any plan to view it full size.</p>
-        </div>
-        <div class="tabs" role="tablist" aria-label="Filter floor plans by tower">
-          <button role="tab" class="tab active" aria-selected="true" data-filter="all">All plans</button>
-          <button role="tab" class="tab" aria-selected="false" data-filter="master">Master Layout</button>
+        <h2 id="plansTitle" class="section-title rv">Floor <span class="hl">Plans</span></h2>
+        <div class="tabs rv" role="tablist" aria-label="Filter floor plans by tower">
+          <button role="tab" class="tab active" aria-selected="true" data-filter="all">All</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="master">Master Plan</button>
           <button role="tab" class="tab" aria-selected="false" data-filter="g">Tower G</button>
           <button role="tab" class="tab" aria-selected="false" data-filter="h">Tower H</button>
           <button role="tab" class="tab" aria-selected="false" data-filter="i">Tower I</button>
@@ -527,38 +504,39 @@
     </section>
 
     <!-- ================= AMENITIES ================= -->
-    <section class="section dark" id="amenities" aria-labelledby="amenTitle">
+    <section class="section alt" id="amenities" aria-labelledby="amenTitle">
       <div class="container">
-        <div class="section-head rv">
-          <p class="eyebrow">Premium Lifestyle Experience</p>
-          <h2 id="amenTitle" class="section-title">20+ Luxury Lifestyle Amenities</h2>
-          <p class="lead">Curated to elevate everyday living and create a comfortable, vibrant community.</p>
+        <h2 id="amenTitle" class="section-title rv"><span class="hl">20+</span> Amenities</h2>
+        <div class="amen-photos rv">
+          <button type="button" class="amen-photo zoom" data-zoom="images/gallery/pool-amenity-deck.webp" data-alt="Swimming pool (artist's impression)" aria-label="Enlarge swimming pool view"><img src="images/gallery/pool-amenity-deck-thumb.webp" width="640" height="327" loading="lazy" decoding="async" alt="Swimming pool at United Athila, Dhanori (artist's impression)"><span><svg class="ic" aria-hidden="true"><use href="#i-pool"/></svg>Swimming Pool</span></button>
+          <button type="button" class="amen-photo zoom" data-zoom="images/gallery/courtyard-garden.webp" data-alt="Sports court and landscaped garden (artist's impression)" aria-label="Enlarge sports court and garden view"><img src="images/gallery/courtyard-garden-thumb.webp" width="640" height="190" loading="lazy" decoding="async" alt="Sports court and landscaped gardens at United Athila, Dhanori (artist's impression)"><span><svg class="ic" aria-hidden="true"><use href="#i-tree"/></svg>Sports Court &amp; Gardens</span></button>
         </div>
-        <ul class="amenity-grid">
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-club"/></svg>Clubhouse</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-gym"/></svg>Gymnasium</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-pool"/></svg>Swimming Pool</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-yoga"/></svg>Yoga Deck</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-kids"/></svg>Kids' Play Area</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-tree"/></svg>Landscaped Gardens</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-run"/></svg>Jogging Track</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-hall"/></svg>Multipurpose Hall</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-senior"/></svg>Senior Citizen Zone</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-game"/></svg>Indoor Games</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>24x7 Security</li>
-          <li class="rv"><svg class="ic" aria-hidden="true"><use href="#i-bolt"/></svg>Power Backup</li>
+        <ul class="amenity-grid rv">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-club"/></svg>Clubhouse</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-gym"/></svg>Gymnasium</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-pool"/></svg>Swimming Pool</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-yoga"/></svg>Yoga Deck</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-kids"/></svg>Kids' Play Area</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-tree"/></svg>Landscaped Gardens</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-run"/></svg>Jogging Track</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-hall"/></svg>Multipurpose Hall</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-senior"/></svg>Senior Citizen Zone</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-game"/></svg>Indoor Games</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>24x7 Security</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-bolt"/></svg>Power Backup</li>
         </ul>
-        <p class="note light">Amenity list is indicative and subject to final sanctioned plans.</p>
+        <p class="note rv">Amenity list is indicative and subject to final sanctioned plans.</p>
       </div>
     </section>
 
     <!-- ================= LOCATION ================= -->
     <section class="section" id="location" aria-labelledby="locTitle">
-      <div class="container two-col">
-        <div class="rv">
-          <p class="eyebrow dark">Strategic Connectivity</p>
-          <h2 id="locTitle" class="section-title">The Dhanori Central advantage</h2>
-          <ul class="connect-list">
+      <div class="container">
+        <h2 id="locTitle" class="section-title rv">Location <span class="hl">Advantage</span></h2>
+        <div class="loc-grid">
+          <div class="rv">
+            <p class="loc-head"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Dhanori Central, East Pune</p>
+            <ul class="connect-list">
             <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-road"/></svg></span><div><strong>24 m &amp; 30 m wide roads</strong><small>Direct access to the project</small></div><span class="tag">At site</span></li>
             <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-plane"/></svg></span><div><strong>Pune International Airport</strong><small>Close proximity</small></div><span class="tag">Nearby</span></li>
             <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-metro"/></svg></span><div><strong>Ramwadi Metro Station</strong><small>Easy access</small></div><span class="tag">Easy access</span></li>
@@ -566,37 +544,35 @@
             <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span><div><strong>IT &amp; employment hubs</strong><small>Convenient access to major hubs</small></div><span class="tag">Nearby</span></li>
             <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-school"/></svg></span><div><strong>Schools, colleges, hospitals &amp; markets</strong><small>Everyday conveniences</small></div><span class="tag">Within ~5 km</span></li>
           </ul>
-          <a class="btn btn-gold" href="https://maps.app.goo.gl/yq1CfqTcbcX9tACJ8?g_st=awb" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>View on Google Maps</a>
-        </div>
-        <div class="map-wrap rv" id="mapWrap" data-src="https://maps.google.com/maps?q=Dhanori%2C%20Pune%2C%20Maharashtra&amp;z=14&amp;output=embed">
+            <a class="btn btn-outline btn-sm" href="https://maps.app.goo.gl/yq1CfqTcbcX9tACJ8" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-map"/></svg>View on Google Maps</a>
+          </div>
+          <div class="map-wrap rv" id="mapWrap" data-src="https://maps.google.com/maps?q=Dhanori%2C%20Pune%2C%20Maharashtra&amp;z=14&amp;output=embed">
           <button class="map-placeholder" type="button" id="loadMap" aria-label="Load interactive map of Dhanori, Pune">
             <span class="ic-badge lg"><svg class="ic" aria-hidden="true"><use href="#i-map"/></svg></span>
             <strong>Dhanori Central, East Pune</strong>
             <small>Tap to load the map</small>
           </button>
         </div>
+        </div>
       </div>
     </section>
 
-    <!-- ================= RERA ================= -->
-    <section class="section alt" id="rera" aria-labelledby="reraTitle">
+    <!-- ================= DEVELOPER + RERA ================= -->
+    <section class="section tight" id="rera" aria-labelledby="devTitle">
       <div class="container">
-        <div class="rera-card rv">
-          <div class="rera-info">
-            <p class="eyebrow dark"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>MahaRERA Registered</p>
-            <h2 id="reraTitle" class="section-title">RERA Registration</h2>
-            <p class="rera-no"><span>Registration No.</span><strong>PM1260002602534</strong></p>
-            <p>Scan the QR code in the footer or verify the registration on the official MahaRERA website.</p>
-            <a class="btn btn-outline-dark" href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-qr"/></svg>Verify on MahaRERA website</a>
-          </div>
+        <h2 id="devTitle" class="section-title rv">About the <span class="hl">Developer</span></h2>
+        <div class="dev-card rv">
+          <div class="dev-brand"><span class="brand-mark" aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-towers"/></svg></span><strong>United Landmarks LLP</strong></div>
+          <p>Developer of United Athila at Dhanori Central, East Pune, with residential and select commercial inventory planned across Towers G, H, I &amp; J.</p>
+          <p class="dev-rera"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg><span><small>MahaRERA Reg. No.</small><strong>PM1260002602534</strong></span><a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener">Verify<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
         </div>
       </div>
     </section>
 
     <!-- ================= FAQ ================= -->
-    <section class="section" id="faq" aria-labelledby="faqTitle">
+    <section class="section tight" id="faq" aria-labelledby="faqTitle">
       <div class="container narrow">
-        <div class="section-head rv"><p class="eyebrow dark">Good to Know</p><h2 id="faqTitle" class="section-title">Frequently Asked Questions</h2></div>
+        <h2 id="faqTitle" class="section-title rv">Frequently Asked <span class="hl">Questions</span></h2>
         <div class="faq">
           <details><summary>Where is United Athila, Dhanori located?<svg class="ic chev" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>At Dhanori Central, East Pune, next to the upcoming 108-acre "Dhanori Central" development, with access via 24 m and 30 m wide roads.</p></details>
           <details><summary>What configurations are available?<svg class="ic chev" aria-hidden="true"><use href="#i-chevron"/></svg></summary><p>2 BHK (779 to 843 sq.ft.), 2.5 BHK (806 to 899 sq.ft.) and 3 BHK (918 to 1,059 sq.ft.) residences, plus select commercial inventory.</p></details>
@@ -607,26 +583,16 @@
       </div>
     </section>
 
-    <!-- ================= CONTACT ================= -->
-    <section class="section contact" id="contact" aria-labelledby="contactTitle">
-      <div class="container two-col">
-        <div class="rv">
-          <p class="eyebrow">Priority Inventory · Early-Bird Offers</p>
-          <h2 id="contactTitle" class="section-title">Book your site visit</h2>
-          <p>For residential and commercial inventory, early-bird offers and detailed project information, talk to our sales team.</p>
-          <ul class="contact-steps">
-            <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-edit"/></svg></span>Share your details</li>
-            <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg></span>Get a call within working hours</li>
-            <li><span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg></span>Visit the site at your preferred time</li>
-          </ul>
-          <div class="contact-actions">
-            <a class="contact-tile" href="tel:+919699466495" data-config-phone><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span><small>Talk to our team</small><strong>Call Now</strong></span></a>
-            <button type="button" class="contact-tile wa" data-open-modal data-intent="whatsapp"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg><span><small>Chat with us</small><strong>WhatsApp</strong></span></button>
-          </div>
-        </div>
-        <div class="card form-card rv">
-        <form class="lead-form" id="contactForm" novalidate>
-          <h3 id="contactFormTitle">Book a Site Visit</h3>
+    <!-- ================= CTA / CONTACT ================= -->
+    <section class="cta" id="contact" aria-labelledby="contactTitle">
+      <div class="container">
+        <div class="cta-box rv">
+          <div class="cta-bg" aria-hidden="true"></div>
+          <div class="cta-inner">
+            <h2 id="contactTitle">Book Your <span class="hl">Dream Home Today</span></h2>
+            <p class="cta-sub">Priority inventory and early-bird offers. Our relationship manager will call you back.</p>
+            <form class="lead-form" id="contactForm" novalidate>
+          
           <div class="form-meta">
             <span><svg class="ic" aria-hidden="true"><use href="#i-building"/></svg><span><small>Project</small><b data-config-text="PROJECT_NAME">United Athila, Dhanori</b></span></span>
             <span><svg class="ic" aria-hidden="true"><use href="#i-user"/></svg><span><small>Relationship Manager</small><b data-config-text="DEFAULT_MANAGER_NAME">Sneha</b></span></span>
@@ -657,10 +623,15 @@
           </div>
           <input type="hidden" name="project"><input type="hidden" name="developer"><input type="hidden" name="manager_name"><input type="hidden" name="manager_email">
           <input type="hidden" name="source"><input type="hidden" name="source_link">
-          <button type="submit" class="btn btn-gold btn-block">Submit Enquiry<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <button type="submit" class="btn btn-gold btn-block">Enquire Now<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
           <p class="consent">By submitting you agree to be contacted.</p>
         </form>
-        <div class="success-message" role="status"><strong>Thank you!</strong> Our sales team will call you shortly.</div>
+            <div class="success-message" role="status"><strong>Thank you!</strong> Our sales team will call you shortly.</div>
+            <div class="cta-quick">
+              <a href="tel:+919699466495" data-config-phone><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call Now</a>
+              <button type="button" data-open-modal data-intent="whatsapp"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -669,7 +640,7 @@
   <!-- ================= FOOTER ================= -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span class="footer-mark" aria-hidden="true">UA</span>
+      <span class="footer-mark" aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-towers"/></svg></span>
       <p class="footer-title">United Athila, Dhanori</p>
       <p class="footer-tag">by United Landmarks LLP</p>
       <p class="footer-loc"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Dhanori Central, East Pune</p>
