@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.example.com/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://www.example.com/images/og-image.jpg</image:loc><image:title>United Athila, Dhanori by United Landmarks LLP</image:title></image:image>
+    <image:image><image:loc>https://www.example.com/images/plans/master-layout-ground-floor.webp</image:loc><image:title>Master layout plan</image:title></image:image>
+    <image:image><image:loc>https://www.example.com/images/plans/wing-g-typical-floor-plan.webp</image:loc><image:title>Tower G typical floor plan</image:title></image:image>
+    <image:image><image:loc>https://www.example.com/images/plans/wing-i-typical-floor-plan.webp</image:loc><image:title>Tower I typical floor plan</image:title></image:image>
+    <image:image><image:loc>https://www.example.com/images/plans/wing-j-typical-floor-plan.webp</image:loc><image:title>Tower J typical floor plan</image:title></image:image>
+  </url>
+</urlset>
