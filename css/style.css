@@ -22,8 +22,8 @@
   --shadow-sm: 0 2px 8px rgba(28, 52, 57, .06);
   --shadow: 0 14px 40px rgba(28, 52, 57, .12);
   --header-h: 62px;
-  --font-head: "Roboto Serif", Georgia, "Times New Roman", serif;
-  --font-body: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-head: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body: "Montserrat", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -32,7 +32,7 @@ body { font-synthesis: none; margin: 0; font-family: var(--font-body); font-size
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 *, *::before, *::after { font-style: normal; }
-h1, h2, h3 { font-optical-sizing: none; font-variation-settings: "opsz" 18; font-family: var(--font-head); line-height: 1.15; margin: 0 0 .5em; color: var(--navy); font-weight: 600; text-wrap: balance; letter-spacing: -.01em; }
+h1, h2, h3 { font-family: var(--font-head); line-height: 1.15; margin: 0 0 .5em; color: var(--navy); font-weight: 600; text-wrap: balance; letter-spacing: -.01em; }
 p { margin: 0 0 1em; }
 ul, dl, dd { margin: 0; padding: 0; list-style: none; }
 input, select, textarea { font-family: inherit; }
@@ -269,7 +269,7 @@ td:last-child { font-weight: 700; color: var(--navy); }
 /* ---------- RERA ---------- */
 .rera-card { display: grid; gap: 22px; align-items: center; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow-sm); max-width: 860px; margin: 0 auto; }
 .rera-card > * { min-width: 0; }
-.rera-qr { justify-self: center; padding: 12px; border-radius: var(--radius); border: 1px solid var(--line); background: #fff; }
+.rera-qr { display: none; justify-self: center; padding: 12px; border-radius: var(--radius); border: 1px solid var(--line); background: #fff; }
 .rera-qr img { width: 164px; height: 164px; image-rendering: pixelated; }
 .rera-info .section-title { margin-bottom: 10px; }
 .rera-no { display: flex; flex-direction: column; padding: 12px 14px; border-radius: var(--radius-sm); background: var(--bg-alt); border: 1px dashed var(--gold); }
@@ -311,11 +311,14 @@ td:last-child { font-weight: 700; color: var(--navy); }
 .footer-links a { text-decoration: none; color: rgba(255,255,255,.8); padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.03); transition: color .2s, border-color .2s, background .2s; }
 .footer-links a:hover { color: var(--navy); background: var(--gold); border-color: var(--gold); }
 .footer-cta { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 22px; }
-.footer-rera { display: inline-flex; align-items: center; flex-wrap: wrap; justify-content: center; gap: 4px 12px; margin: 0 0 20px; padding: 10px 18px; border-radius: 14px; border: 1px solid rgba(135,187,162,.25); background: rgba(135,187,162,.06); }
-.footer-rera > .ic { width: 22px; height: 22px; color: var(--gold); }
-.footer-rera span { display: flex; flex-direction: column; text-align: left; line-height: 1.25; }
-.footer-rera strong { color: #fff; font-size: 15px; font-weight: 500; letter-spacing: .05em; }
-.footer-rera .rera-site { color: rgba(255,255,255,.5); }
+.footer-rera { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 18px; padding: 6px 14px 6px 6px; border-radius: 12px; border: 1px solid rgba(135,187,162,.25); background: rgba(135,187,162,.06); text-decoration: none; color: inherit; transition: border-color .2s; }
+.footer-rera:hover { border-color: var(--gold); }
+.footer-rera img { width: 56px; height: 56px; background: #fff; padding: 3px; border-radius: 8px; image-rendering: pixelated; flex: 0 0 56px; }
+.footer-rera span { display: flex; flex-direction: column; text-align: left; line-height: 1.3; }
+.footer-rera small { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.6); }
+.footer-rera small .ic { width: 12px; height: 12px; color: var(--gold); }
+.footer-rera strong { color: #fff; font-size: 14px; font-weight: 600; letter-spacing: .05em; }
+.footer-rera .rera-site { text-transform: none; letter-spacing: 0; color: rgba(255,255,255,.45); }
 .disclaimer { max-width: 760px; margin: 0 auto 14px; line-height: 1.6; color: rgba(255,255,255,.5); font-size: 11.5px; }
 .copy { margin: 0; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.08); width: 100%; color: rgba(255,255,255,.55); }
 
@@ -546,7 +549,9 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
   .footer-cta { gap: 6px; margin-bottom: 16px; flex-wrap: nowrap; }
   .footer-cta .btn { padding: 7px 12px; font-size: 12px; gap: 5px; }
   .footer-cta .ic { width: 14px; height: 14px; }
-  .footer-rera { padding: 8px 14px; margin-bottom: 14px; }
+  .footer-rera { margin-bottom: 14px; padding-right: 12px; }
+  .footer-rera img { width: 48px; height: 48px; flex-basis: 48px; }
+  .footer-rera strong { font-size: 13px; }
   .disclaimer { font-size: 10.5px; }
 }
 
@@ -609,3 +614,29 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 .form-card .success-message, .modal-box .success-message { color: #d9f2e5; }
 .form-card .success-message strong, .modal-box .success-message strong { color: #fff; }
 .modal-overlay { background: rgba(19, 38, 41, .55); }
+
+/* ===== Centered layout (all breakpoints) ===== */
+.hero-copy, #overview .two-col > .rv:first-child, #location .two-col > .rv:first-child, #contact .two-col > .rv:first-child, .rera-card { text-align: center; }
+.hero-copy .eyebrow, .two-col .eyebrow, .rera-card .eyebrow { justify-content: center; }
+.hero-copy .h1-sub { display: block; }
+.hero-price { align-items: center; }
+.hero-actions, .contact-actions { justify-content: center; }
+.hero-facts li { justify-content: center; }
+.feature-list li { text-align: center; }
+.contact-steps { justify-items: center; }
+.connect-list li { text-align: left; }
+#location .two-col > .rv:first-child > .btn { margin-inline: auto; }
+.rera-card { grid-template-columns: 1fr !important; max-width: 640px; margin-inline: auto; }
+.rera-no { align-items: center; }
+/* enquiry forms */
+.lead-form { text-align: center; }
+.lead-form h2, .lead-form h3 { text-align: center; }
+.form-meta > span { justify-content: center; text-align: center; }
+.lead-form .field label { text-align: center; }
+.lead-form .field input, .lead-form .field select { text-align: center; text-align-last: center; }
+.lead-form .field-error { text-align: center; }
+.lead-form .consent { justify-content: center; text-align: center; }
+.hero-price { justify-content: center; }
+.contact-steps { grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 520px; margin-inline: auto; }
+.contact-steps li { flex-direction: column; gap: 6px; text-align: center; font-size: 13px; line-height: 1.3; }
+@media (max-width: 767px) { .contact-steps li { font-size: 11.5px; } }
