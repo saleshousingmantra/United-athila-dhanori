@@ -538,3 +538,11 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
   .plan-grid::-webkit-scrollbar { display: none; }
   .plan { scroll-snap-align: start; }
 }
+
+/* ===== Logo ===== */
+.brand-logo { height: 44px; width: auto; }
+.footer-logo { width: 190px; height: auto; margin-bottom: 4px; filter: drop-shadow(0 4px 18px rgba(242,182,50,.25)); }
+.dev-brand img { width: 44px; height: 44px; }
+.thanks-logo { width: 180px; height: auto; margin: 0 auto 10px; }
+@media (min-width: 768px) { .brand-logo { height: 52px; } }
+@media (max-width: 767px) { .footer-logo { width: 150px; } }

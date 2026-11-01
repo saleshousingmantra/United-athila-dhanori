@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="United Athila emblem">
+  <title>United Athila</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6D27A"/><stop offset=".55" stop-color="#E8B04A"/><stop offset="1" stop-color="#C98A1E"/></linearGradient></defs><rect width="200" height="200" rx="44" fill="#0d4a42"/>
+  <path d="M102.39,92.64 L102.33,38.16 Q126.77,17.60 134.46,48.60 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M106.26,95.45 L138.24,51.34 Q170.09,49.07 158.10,78.67 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M107.74,100.00 L159.54,83.11 Q186.64,100.00 159.54,116.89 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M106.26,104.55 L158.10,121.33 Q170.09,150.93 138.24,148.66 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M102.39,107.36 L134.46,151.40 Q126.77,182.40 102.33,161.84 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M97.61,107.36 L97.67,161.84 Q73.23,182.40 65.54,151.40 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M93.74,104.55 L61.76,148.66 Q29.91,150.93 41.90,121.33 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M92.26,100.00 L40.46,116.89 Q13.36,100.00 40.46,83.11 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M93.74,95.45 L41.90,78.67 Q29.91,49.07 61.76,51.34 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <path d="M97.61,92.64 L65.54,48.60 Q73.23,17.60 97.67,38.16 Z" fill="#0a3a34" stroke="url(#g)" stroke-width="9.00" stroke-linejoin="round"/>
+  <circle cx="100.0" cy="100.0" r="6.96" fill="url(#g)"/>
+</svg>
