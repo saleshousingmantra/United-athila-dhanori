@@ -1,7 +1,7 @@
 /* United Athila, Dhanori: page behaviour (menu, motion, lightbox, enquiry popup) */
 document.addEventListener('DOMContentLoaded', function () {
   var cfg = window.SITE_CONFIG || {};
-  var PHONE = '91' + String(cfg.DEFAULT_PHONE || '9699466495').replace(/\D/g, '').slice(-10);
+  var PHONE = '91' + String(cfg.DEFAULT_PHONE || '8793866292').replace(/\D/g, '').slice(-10);
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   /* Fill Project, Developer and Relationship Manager fields from config.js */
