@@ -1,0 +1,8 @@
+# One canonical address for search engines: https://unitedathiladhanori.com
+# Sends http:// and www. visitors to the https, non-www site with a permanent (301) redirect.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^(.*)$ https://unitedathiladhanori.com/$1 [R=301,L]
+</IfModule>
