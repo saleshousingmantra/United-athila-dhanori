@@ -590,3 +590,9 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 @media (max-width: 767px) {
   .field input, .field select { height: 38px; font-size: 14px; padding: 0 10px; }
 }
+
+/* ===== Address + nearby landmarks ===== */
+.loc-addr { font-style: normal; font-size: 13.5px; color: var(--muted); margin: -4px 0 10px 30px; line-height: 1.4; }
+.loc-sub { font-weight: 700; font-size: 14px; color: var(--green); margin: 4px 0 8px; }
+.landmarks { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.landmarks li { font-size: 12.5px; font-weight: 600; color: var(--green); background: var(--gold-soft); padding: 5px 11px; border-radius: 999px; }
