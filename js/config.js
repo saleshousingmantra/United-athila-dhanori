@@ -32,11 +32,11 @@ window.SITE_CONFIG = {
   DEFAULT_DEVELOPER_NAME: "United Landmarks LLP",
 
   DEFAULT_MANAGER_NAME: "Sneha",
-  DEFAULT_MANAGER_EMAIL: "sales.housingmantra@gmail.com",
+  DEFAULT_MANAGER_EMAIL: "snehabudh.housingmantra@gmail.com",
 
   /* Default phone used for the Call buttons and WhatsApp chats on the page.
      10-digit Indian mobile; app.js adds the 91 country code. */
-  DEFAULT_PHONE: "9699466495"
+  DEFAULT_PHONE: "8793866292"
 
   /* NOTE ON EMAIL ROUTING:
      Every new enquiry row is emailed (by a database trigger and the
