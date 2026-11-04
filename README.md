@@ -15,6 +15,6 @@ robots.txt, sitemap.xml, manifest.webmanifest
 ```
 
 ## Before going live
-1. Replace every `https://www.example.com` with your real domain (index.html, thank-you, robots.txt, sitemap.xml).
+1. The site URL is `https://unitedathiladhanori.com` (canonical, Open Graph, schema.org, robots.txt, sitemap.xml). If the domain changes, replace it in index.html, thank-you, robots.txt and sitemap.xml.
 2. Set `DEFAULT_MANAGER_EMAIL` in `js/config.js` to the RM who should receive leads.
 3. Confirm the amenity list and the map pin coordinates (18.5935, 73.9133 is approximate for Dhanori).
