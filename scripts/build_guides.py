@@ -14,7 +14,7 @@ import json, os, re, html, urllib.parse, glob, shutil
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 URL = "https://unitedathiladhanori.com"
 DATE = "2026-11-26"
-PHONE = "+918793866292"
+PHONE = "+918007616636"
 RERA = "PM1260002602534"
 sched = json.load(open(os.path.join(ROOT, "scripts/guides_schedule.json")))
 
