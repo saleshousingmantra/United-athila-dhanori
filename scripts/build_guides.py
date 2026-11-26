@@ -200,10 +200,136 @@ G["roads-metro-and-airport-near-dhanori"] = dict(cat="locality", catname="Locali
 <p>Try the <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Dhanori+Jakat+Naka+Pune&amp;destination=Pune+International+Airport" target="_blank" rel="noopener">route from Dhanori Jakat Naka to Pune Airport</a> at your usual travel time. For more about the area, read the <a href="../living-in-dhanori-pune/">Dhanori locality overview</a>.</p>
 {SRC}''')
 
+# ------------------------------------------------------------------ project guides
+CT = "united-athila"; CN = "United Athila"
+G["united-athila-price-list"] = dict(cat=CT, catname=CN, img="pool-amenity-deck", imgw=1600,
+  t="United Athila Price List: 2, 2.5 & 3 BHK Dhanori",
+  h="United Athila price list: 2, 2.5 and 3 BHK in Dhanori",
+  d="United Athila Dhanori price list: 2 BHK from ₹84.58 L, 2.5 BHK from ₹90.22 L and 3 BHK from ₹99.63 L, with stamp duty, registration and GST shown.",
+  dek="Unit-wise indicative prices for United Athila, Dhanori, with stamp duty, registration and GST.",
+  alt="Pool and amenity deck at United Athila, Dhanori, Pune",
+  tk=["2 BHK starts at ₹84.58 lakh, 2.5 BHK at ₹90.22 lakh and 3 BHK at ₹99.63 lakh (all-inclusive, per the current cost sheet).",
+      "Prices include stamp duty at 7%, registration of ₹30,000 and GST at 5%.",
+      "Carpet areas range from 779 sq ft (2 BHK) to 1,059 sq ft (3 BHK).",
+      "Prices are indicative and can change, so confirm the latest cost sheet with the sales team."],
+  body='''<p>United Athila is a residential and commercial development by United Landmarks LLP at Dhanori Central, East Pune. This page lists the indicative price of each unit type in the current cost sheet so you can compare options before you visit.</p>
+<h2>United Athila price list at a glance</h2>
+<div class="tw"><table class="compare"><thead><tr><th>Type</th><th>Carpet area</th><th>Starting price (all-inclusive)</th></tr></thead><tbody>
+<tr><td>2 BHK</td><td>779 – 843 sq ft</td><td>₹84.58 lakh onwards</td></tr>
+<tr><td>2.5 BHK</td><td>806 – 899 sq ft</td><td>₹90.22 lakh onwards</td></tr>
+<tr><td>3 BHK</td><td>918 – 1,059 sq ft</td><td>₹99.63 lakh onwards</td></tr></tbody></table></div>
+<h2>Unit-wise cost sheet</h2>
+<p>The table below is the indicative cost sheet. Each total is the agreement value plus stamp duty (7%), registration (₹30,000) and GST (5%).</p>
+<div class="tw"><table class="compare"><thead><tr><th>Type</th><th>Carpet (sq ft)</th><th>Agreement value</th><th>Stamp duty 7%</th><th>GST 5%</th><th>Total</th></tr></thead><tbody>
+<tr><td>2 BHK</td><td>779</td><td>₹75,25,000</td><td>₹5,26,750</td><td>₹3,76,250</td><td>₹84,58,000</td></tr>
+<tr><td>2 BHK</td><td>784</td><td>₹75,74,000</td><td>₹5,30,180</td><td>₹3,78,700</td><td>₹85,12,880</td></tr>
+<tr><td>2 BHK</td><td>797</td><td>₹77,00,000</td><td>₹5,39,000</td><td>₹3,85,000</td><td>₹86,54,000</td></tr>
+<tr><td>2 BHK</td><td>809</td><td>₹78,12,000</td><td>₹5,46,840</td><td>₹3,90,600</td><td>₹87,79,440</td></tr>
+<tr><td>2 BHK</td><td>814</td><td>₹78,61,000</td><td>₹5,50,270</td><td>₹3,93,050</td><td>₹88,34,320</td></tr>
+<tr><td>2.5 BHK</td><td>831</td><td>₹80,29,000</td><td>₹5,62,030</td><td>₹4,01,450</td><td>₹90,22,480</td></tr>
+<tr><td>2.5 BHK</td><td>899</td><td>₹86,87,000</td><td>₹6,08,090</td><td>₹4,34,350</td><td>₹97,59,440</td></tr>
+<tr><td>3 BHK</td><td>918</td><td>₹88,69,000</td><td>₹6,20,830</td><td>₹4,43,450</td><td>₹99,63,280</td></tr>
+<tr><td>3 BHK</td><td>1,003</td><td>₹96,88,000</td><td>₹6,78,160</td><td>₹4,84,400</td><td>₹1,08,80,560</td></tr>
+<tr><td>3 BHK</td><td>1,059</td><td>₹1,02,27,000</td><td>₹7,15,890</td><td>₹5,11,350</td><td>₹1,14,84,240</td></tr></tbody></table></div>
+<p>Registration is ₹30,000 in every row. Prices are indicative as per the current cost sheet and are subject to change without notice. Final pricing, inventory and taxes are as per the agreement.</p>
+<h2>How to use this price list</h2>
+<ul><li>Pick the carpet area that fits your family first, then check the budget. See <a href="../../buying-guides/2-bhk-vs-2-5-bhk-vs-3-bhk/">2 BHK vs 2.5 BHK vs 3 BHK</a> for help.</li><li>Ask whether maintenance, parking and club charges are included or extra.</li><li>Learn how early offers work in <a href="../../buying-guides/what-is-pre-launch-and-early-bird-pricing/">pre-launch and early-bird pricing</a>.</li></ul>
+<p>For the latest availability and a written cost sheet, use the enquiry form on the <a href="../../../">home page</a>.</p>''')
+
+G["united-athila-floor-plans"] = dict(cat=CT, catname=CN, img="towers-facade", imgw=1600,
+  t="United Athila Floor Plans & Carpet Areas | Dhanori",
+  h="United Athila floor plans and carpet areas",
+  d="United Athila floor plans, Dhanori: 2 BHK 779–843, 2.5 BHK 806–899 and 3 BHK 918–1,059 sq ft carpet across Towers G, H, I and J. View plans.",
+  dek="Carpet areas by type, and the master and tower plans available for Towers G, H, I and J.",
+  alt="Tower facade at United Athila, Dhanori, Pune",
+  tk=["2 BHK: 779 to 843 sq ft carpet. 2.5 BHK: 806 to 899 sq ft. 3 BHK: 918 to 1,059 sq ft.",
+      "The project has four towers (G, H, I and J) on a 4.25 acre land parcel.",
+      "Master layouts and tower floor plans are on the home page.",
+      "Plans are indicative and subject to final sanctioned plans."],
+  body='''<p>United Athila, Dhanori has 700+ planned homes and shops across four towers on 4.25 acres. Here is how the carpet areas break down and where to find the plans.</p>
+<h2>Carpet area by configuration</h2>
+<div class="tw"><table class="compare"><thead><tr><th>Type</th><th>Carpet area</th></tr></thead><tbody>
+<tr><td>2 BHK</td><td>779 – 843 sq ft</td></tr><tr><td>2.5 BHK</td><td>806 – 899 sq ft</td></tr><tr><td>3 BHK</td><td>918 – 1,059 sq ft</td></tr></tbody></table></div>
+<p>Carpet area is the usable area inside the flat, which is why it is the best number to compare between projects. The cost sheet also shows a larger figure that includes a share of common areas, so check which number a price is based on. See the <a href="../united-athila-price-list/">United Athila price list</a> for both figures.</p>
+<h2>Plans available</h2>
+<ul><li><strong>Master layouts:</strong> ground floor and first floor.</li><li><strong>Tower G:</strong> upper ground, first, typical and 7th (refuge) floor.</li><li><strong>Tower H:</strong> 9th to 11th floor.</li><li><strong>Tower I:</strong> typical and 7th (refuge) floor.</li><li><strong>Tower J:</strong> first, typical and 7th (refuge) floor.</li></ul>
+<p>You can open and enlarge each plan in the floor plans section on the <a href="../../../#floor-plans">home page</a>.</p>
+<h2>What to look for in a plan</h2>
+<ol><li>Is the living room wide enough for your furniture, and does it get light?</li><li>Are the bedrooms and bathrooms placed so that doors do not clash?</li><li>Where is the kitchen, and is there a utility area?</li><li>How many flats share each lift lobby on the typical floor?</li></ol>
+<p>Ask the sales team which tower and floor each carpet area is in. Plans are indicative and subject to final sanctioned plans.</p>''')
+
+G["united-athila-rera-details"] = dict(cat=CT, catname=CN, img="towers-courtyard-view", imgw=1600,
+  t="United Athila RERA Number & Developer Details",
+  h="United Athila RERA number and developer details",
+  d="United Athila, Dhanori is registered with MahaRERA under PM1260002602534. Developer United Landmarks LLP. How to verify the registration yourself.",
+  dek="The MahaRERA registration number, the developer and the address, and how to check them yourself.",
+  alt="Towers and courtyard at United Athila, Dhanori, Pune",
+  tk=["MahaRERA registration number: PM1260002602534.",
+      "Developer: United Landmarks LLP. Location: Survey No. 6, Hissa No. 2, Dhanori, Pune 411015.",
+      "You can verify any project on the official MahaRERA website before you book.",
+      "Always match the registration number on the agreement with the one on the website."],
+  body='''<p>RERA registration is one of the first things to check before buying an under-construction home. This page lists the details for United Athila, Dhanori and shows how to verify them yourself.</p>
+<h2>United Athila project details</h2>
+<div class="tw"><table class="compare"><thead><tr><th>Detail</th><th>Information</th></tr></thead><tbody>
+<tr><td>Project</td><td>United Athila, Dhanori Central, East Pune</td></tr><tr><td>Developer</td><td>United Landmarks LLP</td></tr>
+<tr><td>MahaRERA registration</td><td>PM1260002602534</td></tr><tr><td>Address</td><td>Survey No. 6, Hissa No. 2, Dhanori, Pune 411015</td></tr>
+<tr><td>Land parcel</td><td>4.25 acres</td></tr><tr><td>Towers</td><td>G, H, I and J</td></tr><tr><td>Configurations</td><td>2, 2.5 and 3 BHK, plus select commercial inventory</td></tr></tbody></table></div>
+<h2>How to verify the registration</h2>
+<ol><li>Open the official <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener">MahaRERA website</a>.</li><li>Go to the registered projects search and enter the registration number PM1260002602534.</li><li>Check the project name, the developer, the address and the dates shown for the project.</li><li>Match the registration number with the one printed on the agreement and the brochure.</li></ol>
+<h2>Why it matters</h2>
+<p>A RERA-registered project has its approvals, timelines and details on public record. The project page also lists the possession timeline that the developer has declared, so read it there and confirm it with the sales team in writing.</p>
+<p>Read the <a href="../../buying-guides/how-to-read-a-cost-sheet/">cost sheet guide</a> and the <a href="../united-athila-price-list/">United Athila price list</a> before you pay a booking amount.</p>''')
+
+G["united-athila-pune-overview"] = dict(cat=CT, catname=CN, img="towers-courtyard-view", imgw=1600,
+  t="United Athila Pune: Project Overview | Dhanori",
+  h="United Athila Pune: project overview",
+  d="United Athila, Dhanori, Pune by United Landmarks LLP: 4.25 acres, 700+ homes in four towers, 2, 2.5 and 3 BHK, and 20+ amenities. Overview and facts.",
+  dek="Everything about United Athila in Pune in one place: size, towers, homes, amenities and location.",
+  alt="Landscaped towers at United Athila, Dhanori, Pune",
+  tk=["United Athila is by United Landmarks LLP at Dhanori Central, East Pune.",
+      "4.25 acres with 700+ planned homes and shops across Towers G, H, I and J.",
+      "2, 2.5 and 3 BHK homes, with 20+ amenities and select commercial inventory.",
+      "MahaRERA registration number: PM1260002602534."],
+  body='''<p>United Athila is a residential and commercial development in Dhanori, Pune, by United Landmarks LLP. It is sometimes searched as United Athila Pune or United Athila Dhanori, and this page brings the main facts together.</p>
+<h2>Project snapshot</h2>
+<div class="tw"><table class="compare"><thead><tr><th>Detail</th><th>Information</th></tr></thead><tbody>
+<tr><td>Developer</td><td>United Landmarks LLP</td></tr><tr><td>Location</td><td>Dhanori Central, East Pune (Dhanori, Pune 411015)</td></tr>
+<tr><td>Land parcel</td><td>4.25 acres</td></tr><tr><td>Planned homes and shops</td><td>700+</td></tr><tr><td>Towers</td><td>G, H, I and J</td></tr>
+<tr><td>Homes</td><td>2 BHK (779–843 sq ft), 2.5 BHK (806–899 sq ft), 3 BHK (918–1,059 sq ft) carpet</td></tr>
+<tr><td>Starting price</td><td>₹84.58 lakh (all-inclusive, indicative)</td></tr><tr><td>MahaRERA</td><td>PM1260002602534</td></tr></tbody></table></div>
+<h2>Location</h2>
+<p>The project sits next to the upcoming 108-acre Dhanori Central development, with access to Pune Airport, Ramwadi Metro and major IT hubs, and 24 m and 30 m wide roads. Read the <a href="../../locality/living-in-dhanori-pune/">Dhanori locality overview</a> for more on the area, and check live routes on <a href="https://www.google.com/maps/search/?api=1&amp;query=United+Athila+Dhanori+Pune" target="_blank" rel="noopener">Google Maps</a>.</p>
+<h2>Amenities</h2>
+<p>The project lists 20+ amenities, including a clubhouse, gymnasium, swimming pool, yoga deck, kids' play area, landscaped gardens, jogging track and a multipurpose hall. See the <a href="../united-athila-amenities/">United Athila amenities guide</a> for the full list.</p>
+<h2>Next steps</h2>
+<ul><li>Compare homes in <a href="../united-athila-floor-plans/">floor plans and carpet areas</a>.</li><li>Check the <a href="../united-athila-price-list/">price list</a>.</li><li>Verify the <a href="../united-athila-rera-details/">RERA details</a>.</li></ul>
+<p>Information is indicative and subject to change as per approvals.</p>''')
+
+G["united-athila-amenities"] = dict(cat=CT, catname=CN, img="pool-amenity-deck", imgw=1600,
+  t="United Athila Amenities: Clubhouse, Pool & More",
+  h="United Athila amenities: clubhouse, pool and more",
+  d="United Athila, Dhanori amenities: clubhouse, gymnasium, swimming pool, yoga deck, play area, landscaped gardens, jogging track and 20+ in all.",
+  dek="The lifestyle amenities planned at United Athila, Dhanori, grouped by how you will use them.",
+  alt="Swimming pool and amenity deck at United Athila, Dhanori, Pune",
+  tk=["United Athila lists 20+ lifestyle amenities across the project.",
+      "Fitness: gymnasium, yoga deck, jogging track and indoor games.",
+      "Family and community: kids' play area, senior citizen zone, multipurpose hall and landscaped gardens.",
+      "The amenity list is indicative and subject to final sanctioned plans."],
+  body='''<p>Amenities shape daily life in a gated community. Here are the amenities planned at United Athila, Dhanori, grouped by how they are used. The list is indicative, and the images shown on the project are artist's impressions.</p>
+<h2>Fitness and wellness</h2>
+<ul><li>Gymnasium</li><li>Yoga deck</li><li>Jogging track</li><li>Indoor games</li><li>Swimming pool</li></ul>
+<h2>Family and community</h2>
+<ul><li>Clubhouse</li><li>Kids' play area</li><li>Senior citizen zone</li><li>Multipurpose hall</li><li>Landscaped gardens</li></ul>
+<h2>Safety and utilities</h2>
+<ul><li>24x7 security</li><li>Power backup</li></ul>
+<h2>Questions to ask before you book</h2>
+<ol><li>Which amenities will be ready at possession, and which later?</li><li>Are club and maintenance charges included in the price? See the <a href="../united-athila-price-list/">price list</a>.</li><li>Where are the amenities placed in relation to your tower? Check the <a href="../united-athila-floor-plans/">plans</a>.</li></ol>
+<p>The amenity list is subject to final sanctioned plans. For the full project facts, read the <a href="../united-athila-pune-overview/">United Athila Pune overview</a>.</p>''')
+
 # ------------------------------------------------------------------ build
 ORDER = [s for s in sched["order"] if s in G]
 PUB = [s for s in ORDER if s in sched["published"]]
-CATS = {"buying-guides": "Buying guides", "locality": "Locality guides"}
+CATS = {"united-athila": "United Athila", "buying-guides": "Buying guides", "locality": "Locality guides"}
 IMG = {"towers-courtyard-view": ("towers-courtyard-view-thumb", 640, 401), "towers-facade": ("towers-facade-md", 900, 707), "pool-amenity-deck": ("pool-amenity-deck-thumb", 640, 327)}
 ICON_CLOCK = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'
 
@@ -282,7 +408,7 @@ def guide_page(s):
     g = G[s]; depth = 3; p = rel(depth); path = f"/blog/{g['cat']}/{s}/"
     body = g["body"]
     for u in G:  # never link to a guide that is not published yet
-        if u not in PUB: body = re.sub(r'<a href="(?:\.\./)+%s/">(.*?)</a>' % re.escape(u), r"\1", body)
+        if u not in PUB: body = re.sub(r'<a href="(?:\.\./)+(?:[a-z-]+/)?%s/">(.*?)</a>' % re.escape(u), r"\1", body)
     heads = re.findall(r"<h2>(.*?)</h2>", body)
     for h in heads: body = body.replace(f"<h2>{h}</h2>", f'<h2 id="{slugify(h)}">{h}</h2>', 1)
     toc = "".join(f'<li><a href="#{slugify(h)}">{h}</a></li>' for h in heads)
@@ -363,11 +489,12 @@ list_page(1, "/blog/", "Guides for Dhanori Home Buyers | United Athila", "Guides
 for c, n in CATS.items():
     ss = [s for s in PUB if G[s]["cat"] == c]
     if not ss: continue
-    intros = {"buying-guides": "Buying a home is a big decision, and terms like pre-launch, early-bird pricing and cost sheets can be confusing. These guides explain the basics in plain language, with examples from United Athila in Dhanori, so you can compare options before you book a site visit.",
+    intros = {"united-athila": "Everything about United Athila in one place: the price list, floor plans and carpet areas, RERA details, amenities and a project overview. All figures come from the current cost sheet and plans and are indicative.",
+              "buying-guides": "Buying a home is a big decision, and terms like pre-launch, early-bird pricing and cost sheets can be confusing. These guides explain the basics in plain language, with examples from United Athila in Dhanori, so you can compare options before you book a site visit.",
               "locality": "Choosing a home is about more than the flat itself. These guides cover the neighbourhood around United Athila in Dhanori: schools, hospitals, roads, the metro and the airport. Every place links to Google Maps so you can check live distance and travel time before you decide."}
-    list_page(2, f"/blog/{c}/", f"{n} for Dhanori Home Buyers | United Athila" if c == "buying-guides" else "Dhanori Locality Guides | United Athila",
-              ("Buying guides for Dhanori, Pune: compare 2, 2.5 and 3 BHK homes, understand pre-launch pricing and learn how a cost sheet adds up." if c == "buying-guides" else "Locality guides for Dhanori, Pune: schools, hospitals, roads, metro and the airport near United Athila, with Google Maps links for live distances."),
-              n, "Clear answers before you buy a new home in Dhanori." if c == "buying-guides" else "Schools, hospitals, roads and transport around Dhanori, with Google Maps links.",
+    list_page(2, f"/blog/{c}/", {"united-athila": "United Athila Price, Plans & RERA | Dhanori", "buying-guides": "Buying Guides for Dhanori Home Buyers | United Athila", "locality": "Dhanori Locality Guides | United Athila"}[c],
+              {"united-athila": "United Athila, Dhanori, Pune: price list, floor plans and carpet areas, MahaRERA details, amenities and a full project overview.", "buying-guides": "Buying guides for Dhanori, Pune: compare 2, 2.5 and 3 BHK homes, understand pre-launch pricing and learn how a cost sheet adds up.", "locality": "Locality guides for Dhanori, Pune: schools, hospitals, roads, metro and the airport near United Athila, with Google Maps links for live distances."}[c],
+              n, {"united-athila": "Price list, floor plans, RERA details and amenities for United Athila, Dhanori.", "buying-guides": "Clear answers before you buy a new home in Dhanori.", "locality": "Schools, hospitals, roads and transport around Dhanori, with Google Maps links."}[c],
               [("Home", "/"), ("Guides", "/blog/"), (n, f"/blog/{c}/")], ss, n, search=False, intro=f'<p class="catintro">{intros[c]}</p>')
 sitemap_page()
 

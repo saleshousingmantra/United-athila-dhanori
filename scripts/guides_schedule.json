@@ -1,6 +1,11 @@
 {
   "note": "Guides go live in this order. Add a slug to 'published', run python3 scripts/build_guides.py, then commit and push to main.",
   "order": [
+    "united-athila-pune-overview",
+    "united-athila-price-list",
+    "united-athila-floor-plans",
+    "united-athila-rera-details",
+    "united-athila-amenities",
     "living-in-dhanori-pune",
     "2-bhk-vs-2-5-bhk-vs-3-bhk",
     "what-is-pre-launch-and-early-bird-pricing",
@@ -10,6 +15,11 @@
     "how-to-read-a-cost-sheet"
   ],
   "published": [
+    "united-athila-pune-overview",
+    "united-athila-price-list",
+    "united-athila-floor-plans",
+    "united-athila-rera-details",
+    "united-athila-amenities",
     "living-in-dhanori-pune",
     "2-bhk-vs-2-5-bhk-vs-3-bhk",
     "what-is-pre-launch-and-early-bird-pricing"

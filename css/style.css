@@ -631,3 +631,6 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 .guide-more .ic{width:16px;height:16px}
 @media(min-width:768px){.guide-links{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(3,1fr);overflow:visible;gap:22px}}
 .gl-eyebrow{text-align:center;margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-2)}
+.gl-quick{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:18px 0 0}
+.gl-quick a{font-size:13px;font-weight:600;color:var(--green);background:#fff;border:1px solid #d6e0dd;border-radius:99px;padding:7px 14px;text-decoration:none;transition:background .2s,border-color .2s}
+.gl-quick a:hover{background:var(--gold-soft);border-color:var(--gold)}
