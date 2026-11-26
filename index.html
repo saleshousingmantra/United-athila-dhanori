@@ -109,7 +109,10 @@
             "Marathi"
           ]
         }
-      ]
+      ],
+      "brand": {
+        "@id": "https://unitedathiladhanori.com/#brand"
+      }
     },
     {
       "@type": "WebSite",
@@ -122,7 +125,10 @@
       }
     },
     {
-      "@type": "WebPage",
+      "@type": [
+        "WebPage",
+        "RealEstateListing"
+      ],
       "@id": "https://unitedathiladhanori.com/#webpage",
       "url": "https://unitedathiladhanori.com/",
       "name": "United Athila Dhanori | 2, 2.5 & 3 BHK Flats in Pune",
@@ -132,8 +138,11 @@
       "about": {
         "@id": "https://unitedathiladhanori.com/#residence"
       },
-      "primaryImageOfPage": "https://unitedathiladhanori.com/images/og-image.jpg",
-      "inLanguage": "en-IN"
+      "primaryImageOfPage": {
+        "@id": "https://unitedathiladhanori.com/#img-courtyard"
+      },
+      "inLanguage": "en-IN",
+      "datePosted": "2026-11-26"
     },
     {
       "@type": [
@@ -218,6 +227,31 @@
           "@type": "LocationFeatureSpecification",
           "name": "24 m & 30 m wide access roads",
           "value": true
+        }
+      ],
+      "brand": {
+        "@id": "https://unitedathiladhanori.com/#brand"
+      },
+      "associatedMedia": [
+        {
+          "@id": "https://unitedathiladhanori.com/#img-courtyard"
+        },
+        {
+          "@id": "https://unitedathiladhanori.com/#img-pool"
+        },
+        {
+          "@id": "https://unitedathiladhanori.com/#img-facade"
+        }
+      ],
+      "containsPlace": [
+        {
+          "@id": "https://unitedathiladhanori.com/#apt-2-bhk-at-united-athila"
+        },
+        {
+          "@id": "https://unitedathiladhanori.com/#apt-2-5-bhk-at-united-athila"
+        },
+        {
+          "@id": "https://unitedathiladhanori.com/#apt-3-bhk-at-united-athila"
         }
       ]
     },
@@ -354,6 +388,171 @@
             "@type": "Answer",
             "text": "Submit the enquiry form on this page or use the Call Now button, and our sales team will arrange your visit."
           }
+        }
+      ]
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://unitedathiladhanori.com/#brand",
+      "name": "United Athila",
+      "logo": "https://unitedathiladhanori.com/images/logo/united-athila-logo.png"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://unitedathiladhanori.com/#img-courtyard",
+      "url": "https://unitedathiladhanori.com/images/gallery/towers-courtyard-view.webp",
+      "contentUrl": "https://unitedathiladhanori.com/images/gallery/towers-courtyard-view.webp",
+      "width": 1600,
+      "height": 1001,
+      "caption": "United Athila, Dhanori: towers and landscaped courtyard (artist's impression)",
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://unitedathiladhanori.com/#img-pool",
+      "url": "https://unitedathiladhanori.com/images/gallery/pool-amenity-deck.webp",
+      "contentUrl": "https://unitedathiladhanori.com/images/gallery/pool-amenity-deck.webp",
+      "width": 1600,
+      "height": 818,
+      "caption": "United Athila, Dhanori: swimming pool and amenity deck (artist's impression)",
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://unitedathiladhanori.com/#img-facade",
+      "url": "https://unitedathiladhanori.com/images/gallery/towers-facade.webp",
+      "contentUrl": "https://unitedathiladhanori.com/images/gallery/towers-facade.webp",
+      "width": 1600,
+      "height": 1257,
+      "caption": "United Athila, Dhanori: central tower facade (artist's impression)",
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "Apartment",
+      "@id": "https://unitedathiladhanori.com/#apt-2-bhk-at-united-athila",
+      "name": "2 BHK at United Athila",
+      "floorSize": {
+        "@type": "QuantitativeValue",
+        "minValue": 779,
+        "maxValue": 843,
+        "unitCode": "FTK",
+        "unitText": "sq ft carpet"
+      },
+      "containedInPlace": {
+        "@id": "https://unitedathiladhanori.com/#residence"
+      },
+      "description": "2 BHK homes of 779 to 843 sq ft carpet at United Athila, Dhanori. From ₹84.58 lakh (all-inclusive, indicative).",
+      "numberOfBedrooms": 2
+    },
+    {
+      "@type": "Apartment",
+      "@id": "https://unitedathiladhanori.com/#apt-2-5-bhk-at-united-athila",
+      "name": "2.5 BHK at United Athila",
+      "floorSize": {
+        "@type": "QuantitativeValue",
+        "minValue": 806,
+        "maxValue": 899,
+        "unitCode": "FTK",
+        "unitText": "sq ft carpet"
+      },
+      "containedInPlace": {
+        "@id": "https://unitedathiladhanori.com/#residence"
+      },
+      "description": "2.5 BHK homes of 806 to 899 sq ft carpet at United Athila, Dhanori. From ₹90.22 lakh (all-inclusive, indicative)."
+    },
+    {
+      "@type": "Apartment",
+      "@id": "https://unitedathiladhanori.com/#apt-3-bhk-at-united-athila",
+      "name": "3 BHK at United Athila",
+      "floorSize": {
+        "@type": "QuantitativeValue",
+        "minValue": 918,
+        "maxValue": 1059,
+        "unitCode": "FTK",
+        "unitText": "sq ft carpet"
+      },
+      "containedInPlace": {
+        "@id": "https://unitedathiladhanori.com/#residence"
+      },
+      "numberOfBedrooms": 3,
+      "description": "3 BHK homes of 918 to 1,059 sq ft carpet at United Athila, Dhanori. From ₹99.63 lakh (all-inclusive, indicative)."
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://unitedathiladhanori.com/#projectpages",
+      "name": "United Athila project pages and guides",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "United Athila amenities: clubhouse, pool and more",
+          "url": "https://unitedathiladhanori.com/blog/united-athila/united-athila-amenities/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "United Athila floor plans and carpet areas",
+          "url": "https://unitedathiladhanori.com/blog/united-athila/united-athila-floor-plans/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "United Athila price list: 2, 2.5 and 3 BHK in Dhanori",
+          "url": "https://unitedathiladhanori.com/blog/united-athila/united-athila-price-list/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "United Athila Pune: project overview",
+          "url": "https://unitedathiladhanori.com/blog/united-athila/united-athila-pune-overview/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "United Athila RERA number and developer details",
+          "url": "https://unitedathiladhanori.com/blog/united-athila/united-athila-rera-details/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "2 BHK vs 2.5 BHK vs 3 BHK: which fits you",
+          "url": "https://unitedathiladhanori.com/blog/buying-guides/2-bhk-vs-2-5-bhk-vs-3-bhk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "How to read a cost sheet: stamp duty, registration and GST",
+          "url": "https://unitedathiladhanori.com/blog/buying-guides/how-to-read-a-cost-sheet/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "What is pre-launch and early-bird pricing",
+          "url": "https://unitedathiladhanori.com/blog/buying-guides/what-is-pre-launch-and-early-bird-pricing/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Hospitals and clinics near Dhanori, Pune",
+          "url": "https://unitedathiladhanori.com/blog/locality/hospitals-near-dhanori/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Living in Dhanori, Pune: a locality overview",
+          "url": "https://unitedathiladhanori.com/blog/locality/living-in-dhanori-pune/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Roads, metro and airport near Dhanori, Pune",
+          "url": "https://unitedathiladhanori.com/blog/locality/roads-metro-and-airport-near-dhanori/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Schools near Dhanori, Pune",
+          "url": "https://unitedathiladhanori.com/blog/locality/schools-near-dhanori/"
         }
       ]
     }

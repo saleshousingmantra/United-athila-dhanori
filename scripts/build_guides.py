@@ -422,6 +422,7 @@ def guide_page(s):
         {"@type": "BlogPosting", "headline": g["h"], "description": g["d"], "datePublished": DATE, "dateModified": DATE, "timeRequired": f"PT{m}M", "inLanguage": "en-IN",
          "articleSection": CATS[g["cat"]], "image": URL + "/images/og-image.jpg", "mainEntityOfPage": URL + path,
          "author": {"@type": "Organization", "name": "United Landmarks LLP"},
+         "about": {"@id": URL + "/#residence"}, "isPartOf": {"@id": URL + "/#website"},
          "publisher": {"@type": "Organization", "name": "United Landmarks LLP", "logo": {"@type": "ImageObject", "url": URL + "/images/icon-512.png"}}},
         bc([("Home", "/"), ("Guides", "/blog/"), (CATS[g["cat"]], f"/blog/{g['cat']}/"), (g["h"], path)])]}
     im = g["img"]
