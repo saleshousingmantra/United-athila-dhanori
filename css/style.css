@@ -1,3 +1,5 @@
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 700;font-display:swap;src:url(../fonts/inter-variable.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500 800;font-display:swap;src:url(../fonts/montserrat-variable.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 /* United Athila, Dhanori: green + gold landing page
    Fonts: Montserrat (headings) + Inter (body). Plain, upright, simple digits. */
 
@@ -596,3 +598,6 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 .loc-sub { font-weight: 700; font-size: 14px; color: var(--green); margin: 4px 0 8px; }
 .landmarks { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
 .landmarks li { font-size: 12.5px; font-weight: 600; color: var(--green); background: var(--gold-soft); padding: 5px 11px; border-radius: 999px; }
+
+/* hero keyword line inside the H1 */
+.hero h1 .h1-c{display:block;font-family:var(--font-body);font-size:clamp(17px,2.4vw,24px);font-weight:600;letter-spacing:0;line-height:1.35;color:#fff;margin-top:10px}

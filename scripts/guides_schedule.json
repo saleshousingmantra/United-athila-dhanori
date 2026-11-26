@@ -1,0 +1,17 @@
+{
+  "note": "Guides go live in this order. Add a slug to 'published', run python3 scripts/build_guides.py, then commit and push to main.",
+  "order": [
+    "living-in-dhanori-pune",
+    "2-bhk-vs-2-5-bhk-vs-3-bhk",
+    "what-is-pre-launch-and-early-bird-pricing",
+    "schools-near-dhanori",
+    "hospitals-near-dhanori",
+    "roads-metro-and-airport-near-dhanori",
+    "how-to-read-a-cost-sheet"
+  ],
+  "published": [
+    "living-in-dhanori-pune",
+    "2-bhk-vs-2-5-bhk-vs-3-bhk",
+    "what-is-pre-launch-and-early-bird-pricing"
+  ]
+}
