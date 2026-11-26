@@ -363,8 +363,8 @@ def head(title, desc, path, ld, depth, extra=""):
 <link rel="manifest" href="{p}manifest.webmanifest">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/montserrat-variable.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/inter-variable.woff2">
-<link rel="stylesheet" href="{p}css/style.css?v=20261126c">
-<link rel="stylesheet" href="{p}css/blog.css?v=20261126c">
+<link rel="stylesheet" href="{p}css/style.css?v=20261126d">
+<link rel="stylesheet" href="{p}css/blog.css?v=20261126d">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>
 <body class="blog">
@@ -390,11 +390,11 @@ def foot(depth):
 <p class="footer-loc">Survey No. 6, Hissa No. 2, Dhanori, Pune 411015</p>
 <span class="footer-rule" aria-hidden="true"></span>
 <nav class="footer-links" aria-label="Footer">{links}</nav>
-<a class="footer-rera" href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener"><img src="{p}images/rera-qr.svg" width="56" height="56" decoding="async" alt="QR code for MahaRERA registration number {RERA}"><span><small>MahaRERA Reg. No.</small><strong>{RERA}</strong><small class="rera-site">maharera.maharashtra.gov.in</small></span></a>
+<a class="footer-rera" href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener"><img src="{p}images/rera-qr.svg" width="56" height="56" decoding="async" alt="United Athila, Dhanori: QR code for MahaRERA registration number {RERA}"><span><small>MahaRERA Reg. No.</small><strong>{RERA}</strong><small class="rera-site">maharera.maharashtra.gov.in</small></span></a>
 <p class="disclaimer"><strong>Disclaimer:</strong> Information in these guides is indicative and for general guidance only. Plans, specifications, amenities and prices are subject to change as per approvals. Map links and distances are approximate.</p>
 <p class="copy">© 2026 United Landmarks LLP. All rights reserved.</p>
 </div></footer>
-<script defer src="{p}js/blog.js?v=20261126c"></script>
+<script defer src="{p}js/blog.js?v=20261126d"></script>
 </body></html>'''
 
 def bc(items): return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": URL + q} for i, (n, q) in enumerate(items)]}
