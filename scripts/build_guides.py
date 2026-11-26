@@ -363,8 +363,8 @@ def head(title, desc, path, ld, depth, extra=""):
 <link rel="manifest" href="{p}manifest.webmanifest">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/montserrat-variable.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/inter-variable.woff2">
-<link rel="stylesheet" href="{p}css/style.css?v=20261126b">
-<link rel="stylesheet" href="{p}css/blog.css?v=20261126b">
+<link rel="stylesheet" href="{p}css/style.css?v=20261126c">
+<link rel="stylesheet" href="{p}css/blog.css?v=20261126c">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>
 <body class="blog">
@@ -394,7 +394,7 @@ def foot(depth):
 <p class="disclaimer"><strong>Disclaimer:</strong> Information in these guides is indicative and for general guidance only. Plans, specifications, amenities and prices are subject to change as per approvals. Map links and distances are approximate.</p>
 <p class="copy">© 2026 United Landmarks LLP. All rights reserved.</p>
 </div></footer>
-<script defer src="{p}js/blog.js?v=20261126b"></script>
+<script defer src="{p}js/blog.js?v=20261126c"></script>
 </body></html>'''
 
 def bc(items): return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": URL + q} for i, (n, q) in enumerate(items)]}
@@ -427,7 +427,7 @@ def guide_page(s):
     im = g["img"]
     page = head(g["t"], g["d"], path, ld, depth, "article") + f'''<section class="bhero"><img src="{p}images/gallery/{im}-md.webp" srcset="{p}images/gallery/{im}-md.webp 960w, {p}images/gallery/{im}.webp {g["imgw"]}w" sizes="100vw" width="1600" height="900" fetchpriority="high" decoding="async" alt="{g["alt"]}">
 <div class="container"><p class="crumbs"><a href="{p}">Home</a> › <a href="{p}blog/">Guides</a> › <a href="{p}blog/{g["cat"]}/">{CATS[g["cat"]]}</a></p>
-<span class="tag-pill">{g["catname"]}</span><h1>{cap(g["h"])}</h1><p class="dek">{g["dek"]}</p>
+<span class="tag-pill">{g["catname"]}</span><h1><span class="h1-brand">United Athila Dhanori</span> {cap(g["h"])}</h1><p class="dek">{g["dek"]}</p>
 <div class="metarow"><span>{ICON_CLOCK} {m} min read</span><span>Updated {DATE}</span><span>United Athila, Dhanori</span><button type="button" class="copybtn" data-copy>Copy link</button></div></div></section>
 <div class="post-layout container"><article class="post-body">
 <div class="takeaways"><h2>Key takeaways</h2><ul>{"".join(f"<li>{t}</li>" for t in g["tk"])}</ul></div>
@@ -450,7 +450,7 @@ def list_page(depth, path, title, desc, h1, dek, crumbs, slugs, name, search=Tru
     box = f'<label class="search"><span class="sr-only">Search guides</span><input id="q" type="search" placeholder="Search guides, e.g. pricing, schools, metro" autocomplete="off"></label>' if search else ""
     crumb_html = " › ".join([f'<a href="{p}{q.strip("/")+"/" if q.strip("/") else ""}">{n}</a>' for n, q in crumbs[:-1]] + [crumbs[-1][0]])
     page = head(title, desc, path, ld, depth) + f'''<section class="bhero"><img src="{p}images/gallery/towers-courtyard-view-md.webp" srcset="{p}images/gallery/towers-courtyard-view-md.webp 960w, {p}images/gallery/towers-courtyard-view.webp 1600w" sizes="100vw" width="1600" height="1001" fetchpriority="high" decoding="async" alt="Towers and courtyard at United Athila, Dhanori, Pune">
-<div class="container"><p class="crumbs">{crumb_html}</p><h1>{h1}</h1><p class="dek">{dek}</p>{box}</div></section>
+<div class="container"><p class="crumbs">{crumb_html}</p><h1><span class="h1-brand">United Athila Dhanori</span> {h1}</h1><p class="dek">{dek}</p>{box}</div></section>
 <main class="container listing">
 {intro}{('<div class="chips2" role="group" aria-label="Filter guides">' + chips + "</div>") if search else ""}<p class="count" aria-live="polite"></p>
 <div class="gcards">{"".join(card(s, depth) for s in slugs)}</div>
@@ -471,7 +471,7 @@ def sitemap_page():
     bgs = [(f"{p}blog/{G[s]['cat']}/{s}/", cap(G[s]["h"])) for s in PUB]
     ld = {"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Site map", "url": URL + "/sitemap/"}, bc([("Home", "/"), ("Site map", "/sitemap/")])]}
     page = head("Site Map | United Athila, Dhanori", "Site map of United Athila, Dhanori, Pune: the project page, floor plans, pricing, FAQs and every buying and locality guide in one place.", "/sitemap/", ld, 1) + f'''<section class="bhero"><img src="{p}images/gallery/towers-courtyard-view-md.webp" width="960" height="601" fetchpriority="high" decoding="async" alt="Towers and courtyard at United Athila, Dhanori, Pune">
-<div class="container"><p class="crumbs"><a href="{p}">Home</a> › Site map</p><h1>Site map</h1><p class="dek">Every page of United Athila, Dhanori in one place.</p></div></section>
+<div class="container"><p class="crumbs"><a href="{p}">Home</a> › Site map</p><h1><span class="h1-brand">United Athila Dhanori</span> Site map</h1><p class="dek">Every page of United Athila, Dhanori in one place.</p></div></section>
 <main class="container listing"><div class="smap">{sec("United Athila, Dhanori", main)}{sec("Guides", gl)}{sec("All guide pages", bgs)}</div></main>''' + foot(1)
     os.makedirs(os.path.join(ROOT, "sitemap"), exist_ok=True)
     open(os.path.join(ROOT, "sitemap/index.html"), "w", encoding="utf-8").write(page)

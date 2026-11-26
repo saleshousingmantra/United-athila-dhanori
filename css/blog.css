@@ -102,3 +102,5 @@ table.compare td:last-child a{font-size:14px;display:inline-block;margin:0 4px 4
  .pn{grid-template-columns:1fr}.band{padding:20px}.band h2{font-size:22px}
  .listing{padding-block:24px 60px}.chips2{flex-wrap:nowrap;overflow-x:auto}.chips2 button{flex:0 0 auto}
 }
+
+.bhero h1 .h1-brand{display:block;font-size:.42em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
