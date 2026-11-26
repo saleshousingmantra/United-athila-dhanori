@@ -48,3 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
     top.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
   }
 });
+
+/* Hero slideshow: slides 2 and 3 download only after the page has loaded, so the first image paints sooner */
+window.addEventListener('load', function () {
+  setTimeout(function () { var h = document.querySelector('.hero'); if (h) h.classList.add('slides-ready'); }, 400);
+});
