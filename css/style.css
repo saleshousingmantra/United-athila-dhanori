@@ -661,3 +661,8 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 :root{--dd-line:var(--line);--dd-ink:var(--ink);--dd-muted:#8a9a96;--dd-accent:var(--gold-2);--dd-glow:rgba(242,182,50,.25);--dd-chev:var(--green);--dd-r:10px;--dd-rl:14px;--dd-hover:var(--bg-alt);--dd-on:var(--gold-soft);--dd-shadow:0 18px 44px rgba(13,74,66,.22)}
 .dd-btn{padding:12px 14px;font-size:15px;min-height:46px}
 @media(max-width:700px){.dd-btn{padding:10px 10px;font-size:16px;min-height:42px}}
+/*retrofit-a11y*/
+.section-title:not(.light) .hl,.title-line .hl,.gl-foot b,.gcard small,.gcard .ft em,.dev-rera a,.note a,.legal-links a{color:#8a5a00}
+article a,article a:visited,.post-body a,.prose a{color:#8a5a00!important;text-decoration:underline}
+.gl-foot small,.v{color:#56655f!important}
+.pn small{color:#8a5a00!important}

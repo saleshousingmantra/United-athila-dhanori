@@ -19,8 +19,8 @@ ExpiresByType image/png "access plus 1 year"
 ExpiresByType image/jpeg "access plus 1 year"
 ExpiresByType image/svg+xml "access plus 1 year"
 ExpiresByType font/woff2 "access plus 1 year"
-ExpiresByType text/css "access plus 1 day"
-ExpiresByType application/javascript "access plus 1 day"
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
 ExpiresByType text/html "access plus 0 seconds"
 </IfModule>
 # Do not serve repo and build files
@@ -38,4 +38,19 @@ RedirectMatch 404 ^/scripts/
 <IfModule mod_headers.c>
   Header always set Strict-Transport-Security "max-age=31536000"
   Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # CSS, JS, fonts and images are versioned (?v=hash) or never change: browsers may keep them for a year
+  <FilesMatch "\.(css|js|woff2|webp|png|jpg|jpeg|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+<IfModule mod_headers.c>
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
 </IfModule>

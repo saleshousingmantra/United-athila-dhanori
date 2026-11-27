@@ -18,3 +18,8 @@ robots.txt, sitemap.xml, manifest.webmanifest
 1. The site URL is `https://unitedathiladhanori.com` (canonical, Open Graph, schema.org, robots.txt, sitemap.xml). If the domain changes, replace it in index.html, thank-you, robots.txt and sitemap.xml.
 2. Set `DEFAULT_MANAGER_EMAIL` in `js/config.js` to the RM who should receive leads.
 3. Confirm the amenity list and the map pin coordinates (18.5935, 73.9133 is approximate for Dhanori).
+
+## 2026-11-27 upgrade
+`scripts/retrofit.py` applies the Ceratec-era upgrades to the built site (keywords/geo/ICBM meta, About, Privacy and Cookie pages, footer links and consent line, noscript form fallback, hero reveal removal, accessibility and contrast fixes, honest sitemap `lastmod` in `scripts/lastmod.json`, `llms.txt`, caching and security headers). **Run `python3 scripts/retrofit.py .` after `python3 scripts/build_guides.py`** so regenerated guide pages keep the fixes. Then run `python3 scripts/audit_seo.py . https://unitedathiladhanori.com` and `python3 scripts/audit_deep.py .` (both must pass).
+
+TODO: have the policy pages reviewed by a lawyer; add the operator's registered name and contact details; the home hero image takes about 2.9 s to paint on a simulated slow phone (Lighthouse), so consider a smaller hero image.

@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://unitedathiladhanori.com/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <image:image><image:loc>https://unitedathiladhanori.com/images/og-image.jpg</image:loc><image:title>United Athila, Dhanori by United Landmarks LLP</image:title></image:image>
-    <image:image><image:loc>https://unitedathiladhanori.com/images/plans/master-layout-ground-floor.webp</image:loc><image:title>Master layout plan</image:title></image:image>
-    <image:image><image:loc>https://unitedathiladhanori.com/images/plans/wing-g-typical-floor-plan.webp</image:loc><image:title>Tower G typical floor plan</image:title></image:image>
-    <image:image><image:loc>https://unitedathiladhanori.com/images/plans/wing-i-typical-floor-plan.webp</image:loc><image:title>Tower I typical floor plan</image:title></image:image>
-    <image:image><image:loc>https://unitedathiladhanori.com/images/plans/wing-j-typical-floor-plan.webp</image:loc><image:title>Tower J typical floor plan</image:title></image:image>
-  </url>
-  <url><loc>https://unitedathiladhanori.com/blog/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/united-athila/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/locality/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-pune-overview/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-price-list/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-floor-plans/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-rera-details/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-amenities/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/locality/living-in-dhanori-pune/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/2-bhk-vs-2-5-bhk-vs-3-bhk/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/what-is-pre-launch-and-early-bird-pricing/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/locality/schools-near-dhanori/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/locality/hospitals-near-dhanori/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/locality/roads-metro-and-airport-near-dhanori/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/how-to-read-a-cost-sheet/</loc><lastmod>2026-11-26</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://unitedathiladhanori.com/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/about/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/2-bhk-vs-2-5-bhk-vs-3-bhk/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/how-to-read-a-cost-sheet/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/buying-guides/what-is-pre-launch-and-early-bird-pricing/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/locality/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/locality/hospitals-near-dhanori/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/locality/living-in-dhanori-pune/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/locality/roads-metro-and-airport-near-dhanori/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/locality/schools-near-dhanori/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/united-athila/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-amenities/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-floor-plans/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-price-list/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-pune-overview/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/blog/united-athila/united-athila-rera-details/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/cookie-policy/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/privacy-policy/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://unitedathiladhanori.com/sitemap/</loc><lastmod>2026-11-27</lastmod></url>
 </urlset>
