@@ -61,7 +61,7 @@
   <link rel="preload" as="image" href="images/gallery/towers-courtyard-view-md.webp" imagesrcset="images/gallery/towers-courtyard-view-md.webp 960w, images/gallery/towers-courtyard-view.webp 1600w" imagesizes="100vw" fetchpriority="high" type="image/webp">
   <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/montserrat-variable.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/inter-variable.woff2">
-  <link rel="stylesheet" href="css/style.css?v=20261127b">
+  <link rel="stylesheet" href="css/style.css?v=20261127c">
   <script>document.documentElement.classList.add("js");</script>
 
   <!-- ===== Structured data (Schema.org JSON-LD) ===== -->
@@ -682,7 +682,7 @@
           <div class="field">
             <label for="hero-interest">Interested in</label>
             <select id="hero-interest" name="interest" required>
-              <option value="">Select type</option><option>2 BHK</option><option>2.5 BHK</option><option>3 BHK</option><option>Commercial</option>
+              <option value="">Select type</option><option value="2 BHK" data-sub="Carpet 779–843 sq ft">2 BHK</option><option value="2.5 BHK" data-sub="Carpet 806–899 sq ft">2.5 BHK</option><option value="3 BHK" data-sub="Carpet 918–1,059 sq ft">3 BHK</option><option value="Commercial" data-sub="Select inventory, on request">Commercial</option>
             </select>
             <span class="field-error" id="hero-interest-error" aria-live="polite"></span>
           </div>
@@ -979,7 +979,7 @@
           <div class="field">
             <label for="contact-interest">Interested in</label>
             <select id="contact-interest" name="interest" required>
-              <option value="">Select type</option><option>2 BHK</option><option>2.5 BHK</option><option>3 BHK</option><option>Commercial</option>
+              <option value="">Select type</option><option value="2 BHK" data-sub="Carpet 779–843 sq ft">2 BHK</option><option value="2.5 BHK" data-sub="Carpet 806–899 sq ft">2.5 BHK</option><option value="3 BHK" data-sub="Carpet 918–1,059 sq ft">3 BHK</option><option value="Commercial" data-sub="Select inventory, on request">Commercial</option>
             </select>
             <span class="field-error" id="contact-interest-error" aria-live="polite"></span>
           </div>
@@ -1066,7 +1066,7 @@
           <div class="field">
             <label for="modal-interest">Interested in</label>
             <select id="modal-interest" name="interest" required>
-              <option value="">Select type</option><option>2 BHK</option><option>2.5 BHK</option><option>3 BHK</option><option>Commercial</option>
+              <option value="">Select type</option><option value="2 BHK" data-sub="Carpet 779–843 sq ft">2 BHK</option><option value="2.5 BHK" data-sub="Carpet 806–899 sq ft">2.5 BHK</option><option value="3 BHK" data-sub="Carpet 918–1,059 sq ft">3 BHK</option><option value="Commercial" data-sub="Select inventory, on request">Commercial</option>
             </select>
             <span class="field-error" id="modal-interest-error" aria-live="polite"></span>
           </div>
@@ -1091,9 +1091,10 @@
   <noscript><p class="noscript">For the best experience please enable JavaScript. Please use the enquiry form.</p></noscript>
   <!-- Load order: Supabase SDK → config.js → form.js → app.js -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js" defer></script>
-  <script src="js/config.js?v=20261127b" defer></script>
-  <script src="js/form.js?v=20261127b" defer></script>
-  <script src="js/app.js?v=20261127b" defer></script>
-  <script src="js/extras.js?v=20261127b" defer></script>
+  <script src="js/config.js?v=20261127c" defer></script>
+  <script src="js/form.js?v=20261127c" defer></script>
+  <script src="js/dropdown.js?v=20261127c" defer></script>
+  <script src="js/app.js?v=20261127c" defer></script>
+  <script src="js/extras.js?v=20261127c" defer></script>
 </body>
 </html>
