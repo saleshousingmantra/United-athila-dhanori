@@ -28,3 +28,14 @@ ExpiresByType text/html "access plus 0 seconds"
 Require all denied
 </FilesMatch>
 RedirectMatch 404 ^/scripts/
+
+# Send /index.html (and /folder/index.html) to the clean URL: one address per page
+<IfModule mod_rewrite.c>
+  RewriteCond %{THE_REQUEST} \s/(.*/)?index\.html[\s?]
+  RewriteRule ^(.*/)?index\.html$ https://unitedathiladhanori.com/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+</IfModule>

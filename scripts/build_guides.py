@@ -335,7 +335,7 @@ ICON_CLOCK = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12
 
 def rel(depth): return "../" * depth
 
-def head(title, desc, path, ld, depth, extra=""):
+def head(title, desc, path, ld, depth, extra="", robots="index, follow, max-image-preview:large, max-snippet:-1"):
     p = rel(depth)
     return f'''<!DOCTYPE html>
 <html lang="en-IN">
@@ -345,7 +345,7 @@ def head(title, desc, path, ld, depth, extra=""):
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{URL}{path}">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="robots" content="{robots}">
 <meta name="theme-color" content="#0d4a42">
 <meta property="og:type" content="{'article' if extra=='article' else 'website'}">
 <meta property="og:locale" content="en_IN">
@@ -363,8 +363,8 @@ def head(title, desc, path, ld, depth, extra=""):
 <link rel="manifest" href="{p}manifest.webmanifest">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/montserrat-variable.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/inter-variable.woff2">
-<link rel="stylesheet" href="{p}css/style.css?v=20261126e">
-<link rel="stylesheet" href="{p}css/blog.css?v=20261126e">
+<link rel="stylesheet" href="{p}css/style.css?v=20261127a">
+<link rel="stylesheet" href="{p}css/blog.css?v=20261127a">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>
 <body class="blog">
@@ -394,15 +394,15 @@ def foot(depth):
 <p class="disclaimer"><strong>Disclaimer:</strong> Information in these guides is indicative and for general guidance only. Plans, specifications, amenities and prices are subject to change as per approvals. Map links and distances are approximate.</p>
 <p class="copy">© 2026 United Landmarks LLP. All rights reserved.</p>
 </div></footer>
-<script defer src="{p}js/blog.js?v=20261126e"></script>
+<script defer src="{p}js/blog.js?v=20261127a"></script>
 </body></html>'''
 
 def bc(items): return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": URL + q} for i, (n, q) in enumerate(items)]}
 
-def card(s, depth):
+def card(s, depth, tag="h3"):
     g = G[s]; p = rel(depth); im, w, h = IMG[g["img"]]
     return (f'<a class="gcard" href="{p}blog/{g["cat"]}/{s}/" data-title="{html.escape(g["h"])}" data-cat="{g["cat"]}"><div class="im"><img src="{p}images/gallery/{im}.webp" width="{w}" height="{h}" loading="lazy" decoding="async" alt="{g["alt"]}"></div>'
-            f'<div class="tx"><small>{g["catname"]}</small><h3>{cap(g["h"])}</h3><p>{g["dek"]}</p><div class="ft"><span>{mins(g["body"])} min read</span><em>Read guide →</em></div></div></a>')
+            f'<div class="tx"><small>{g["catname"]}</small><{tag}>{cap(g["h"])}</{tag}><p>{g["dek"]}</p><div class="ft"><span>{mins(g["body"])} min read</span><em>Read guide →</em></div></div></a>')
 
 def guide_page(s):
     g = G[s]; depth = 3; p = rel(depth); path = f"/blog/{g['cat']}/{s}/"
@@ -454,7 +454,7 @@ def list_page(depth, path, title, desc, h1, dek, crumbs, slugs, name, search=Tru
 <div class="container"><p class="crumbs">{crumb_html}</p><h1><span class="h1-brand">United Athila Dhanori</span> {h1}</h1><p class="dek">{dek}</p>{box}</div></section>
 <main class="container listing">
 {intro}{('<div class="chips2" role="group" aria-label="Filter guides">' + chips + "</div>") if search else ""}<p class="count" aria-live="polite"></p>
-<div class="gcards">{"".join(card(s, depth) for s in slugs)}</div>
+<div class="gcards">{"".join(card(s, depth, "h2") for s in slugs)}</div>
 <div class="empty">No guides match your search. Try a different word.</div>
 <div class="band"><div><h2>Interested in United Athila?</h2><p>Get the early-bird price, cost sheet and floor plans.</p></div><div class="acts"><a class="btn btn-gold" href="{p}#contact">Get price &amp; brochure</a><a class="btn btn-outline-light" href="tel:{PHONE}">Call Now</a></div></div>
 </main>''' + foot(depth)
@@ -471,7 +471,7 @@ def sitemap_page():
         if ss: gl.append((f"{p}blog/{c}/", n))
     bgs = [(f"{p}blog/{G[s]['cat']}/{s}/", cap(G[s]["h"])) for s in PUB]
     ld = {"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Site map", "url": URL + "/sitemap/"}, bc([("Home", "/"), ("Site map", "/sitemap/")])]}
-    page = head("Site Map | United Athila, Dhanori", "Site map of United Athila, Dhanori, Pune: the project page, floor plans, pricing, FAQs and every buying and locality guide in one place.", "/sitemap/", ld, 1) + f'''<section class="bhero"><img src="{p}images/gallery/towers-courtyard-view-md.webp" width="960" height="601" fetchpriority="high" decoding="async" alt="Towers and courtyard at United Athila, Dhanori, Pune">
+    page = head("Site Map | United Athila, Dhanori", "Site map of United Athila, Dhanori, Pune: the project page, floor plans, pricing, FAQs and every buying and locality guide in one place.", "/sitemap/", ld, 1, robots="noindex, follow") + f'''<section class="bhero"><img src="{p}images/gallery/towers-courtyard-view-md.webp" width="960" height="601" fetchpriority="high" decoding="async" alt="Towers and courtyard at United Athila, Dhanori, Pune">
 <div class="container"><p class="crumbs"><a href="{p}">Home</a> › Site map</p><h1><span class="h1-brand">United Athila Dhanori</span> Site map</h1><p class="dek">Every page of United Athila, Dhanori in one place.</p></div></section>
 <main class="container listing"><div class="smap">{sec("United Athila, Dhanori", main)}{sec("Guides", gl)}{sec("All guide pages", bgs)}</div></main>''' + foot(1)
     os.makedirs(os.path.join(ROOT, "sitemap"), exist_ok=True)
@@ -500,7 +500,7 @@ for c, n in CATS.items():
 sitemap_page()
 
 # sitemap.xml
-urls = ["/", "/blog/", "/sitemap/"] + [f"/blog/{c}/" for c in CATS if any(G[s]["cat"] == c for s in PUB)] + [f"/blog/{G[s]['cat']}/{s}/" for s in PUB]
+urls = ["/", "/blog/"] + [f"/blog/{c}/" for c in CATS if any(G[s]["cat"] == c for s in PUB)] + [f"/blog/{G[s]['cat']}/{s}/" for s in PUB]
 old = open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8").read()
 home_block = re.search(r"<url>\s*<loc>https://unitedathiladhanori\.com/</loc>.*?</url>", old, re.S).group(0)
 xml = old[:old.index("<url>")] + home_block + "\n" + "".join(f"  <url><loc>{URL}{u}</loc><lastmod>{DATE}</lastmod></url>\n" for u in urls[1:]) + "</urlset>\n"
