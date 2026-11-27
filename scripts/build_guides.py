@@ -363,8 +363,8 @@ def head(title, desc, path, ld, depth, extra="", robots="index, follow, max-imag
 <link rel="manifest" href="{p}manifest.webmanifest">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/montserrat-variable.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{p}fonts/inter-variable.woff2">
-<link rel="stylesheet" href="{p}css/style.css?v=20261127a">
-<link rel="stylesheet" href="{p}css/blog.css?v=20261127a">
+<link rel="stylesheet" href="{p}css/style.css?v=20261127b">
+<link rel="stylesheet" href="{p}css/blog.css?v=20261127b">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>
 <body class="blog">
@@ -394,7 +394,7 @@ def foot(depth):
 <p class="disclaimer"><strong>Disclaimer:</strong> Information in these guides is indicative and for general guidance only. Plans, specifications, amenities and prices are subject to change as per approvals. Map links and distances are approximate.</p>
 <p class="copy">© 2026 United Landmarks LLP. All rights reserved.</p>
 </div></footer>
-<script defer src="{p}js/blog.js?v=20261127a"></script>
+<script defer src="{p}js/blog.js?v=20261127b"></script>
 </body></html>'''
 
 def bc(items): return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": URL + q} for i, (n, q) in enumerate(items)]}
