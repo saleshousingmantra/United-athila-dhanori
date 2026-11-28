@@ -397,8 +397,7 @@ def legal_pages(tpl):
     about = f"""
 <h2 id="who">Who we are</h2>
 <p>{partner}</p>
-<h2 id="independence">What that means for you</h2>
-<p>{L["independence"]}</p>
+{('<h2 id="independence">What that means for you</h2><p>' + L["independence"] + '</p>') if L.get("independence") else ""}
 <h2 id="sources">Where the information comes from</h2>
 <ul><li>Prices, carpet areas, home types and offers come from the developer's launch and sales material shared with the sales team.</li>
 <li>Calculations, such as price per sq ft or EMI examples, are our own arithmetic on those figures and are labelled as illustrations.</li>
