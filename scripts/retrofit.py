@@ -128,6 +128,16 @@ def footer_links(h, url):
     return h.replace(f, f2, 1)
 
 
+def footer_br(h):
+    """Sites whose footer stacks links with <br>: keep the added links on separate lines (adjacent anchors would run together)."""
+    if not CFG.get("footer_br"):
+        return h
+    m = re.search(r"<footer.*?</footer>", h, re.S)
+    if not m:
+        return h
+    return h.replace(m.group(0), m.group(0).replace("</a><a href=", "</a><br><a href="), 1)
+
+
 def forms(h, url):
     pf = prefix(url)
     pol = f'<a href="{pf}privacy-policy/">Privacy Policy</a>'
@@ -254,7 +264,15 @@ def hero_variants(h, page_path):
     return h
 
 
+def balance_gcards(h):
+    """Guide hubs: the cards container <div class="gcards"> must be closed before the empty-state message (one site left it open)."""
+    if '<div class="gcards"' in h and h.count("<div") == h.count("</div>") + 1:
+        h = re.sub(r'(</a>\s*)(<div class="empty">)', r"\1</div>\n\2", h, count=1)
+    return h
+
+
 def misc(h, url):
+    h = balance_gcards(h)
     h = h.replace('style="font-size:12px;opacity:.8;margin:8px 0 0"', 'style="font-size:12px;margin:8px 0 0"')
     h = structure(h)
     h = labels(h)
@@ -526,6 +544,7 @@ def main():
         h0 = h
         h = inject_meta(h, u)
         h = footer_links(h, u)
+        h = footer_br(h)
         h = forms(h, u)
         h = hero(h)
         h = misc(h, u)
