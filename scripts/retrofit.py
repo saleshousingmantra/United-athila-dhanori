@@ -271,8 +271,19 @@ def balance_gcards(h):
     return h
 
 
+def alt_text(h):
+    """Alt text: no "artist's impression" wording; logos carry the project name and place."""
+    art = re.compile(r"\s*\((?:artist(?:'|&#x27;|&#39;|\\u0027)s impression)\)", re.I)
+    h = re.sub(r'((?:data-)?alt=")([^"]*)(")', lambda m: m.group(1) + art.sub("", m.group(2)) + m.group(3), h)
+    h = re.sub(r'(<script type="application/ld\+json">)(.*?)(</script>)', lambda m: m.group(1) + art.sub("", m.group(2)) + m.group(3), h, flags=re.S)
+    return h
+
+
 def misc(h, url):
     h = balance_gcards(h)
+    h = alt_text(h)
+    h = h.replace('alt="United Athila logo"', 'alt="United Athila, Dhanori logo"')
+    h = h.replace('alt="United Athila"', 'alt="United Athila, Dhanori logo"')
     h = re.sub(r'\s*<a\b[^>]*class="call-btn"[^>]*>.*?</a>', '', h, flags=re.S)  # no Call Now button in the header
     h = h.replace('style="font-size:12px;opacity:.8;margin:8px 0 0"', 'style="font-size:12px;margin:8px 0 0"')
     h = structure(h)
