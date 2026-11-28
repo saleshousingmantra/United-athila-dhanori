@@ -38,6 +38,55 @@ SRC = ('<p><strong>How we compiled this guide:</strong> place names come from pu
        'directly with each place before you decide.</p>')
 CTA_NOTE = '<p>Project details, pricing and floor plans for United Athila are on the <a href="{h}">home page</a>.</p>'
 
+
+EXTRA = {
+"united-athila-amenities": """
+<h2>How to judge an amenity list</h2>
+<p>A long list is only useful if the amenities are built, open and affordable to run. Ask three questions for every item you care about: is it ready at possession or in a later phase, who pays to run it, and how will residents book it? A swimming pool and a gymnasium need staff, cleaning and equipment, and those costs usually return as maintenance charges. A clubhouse that is free to enter but costly to maintain is not a saving.</p>
+<h2>Match the list to your household</h2>
+<ul><li><strong>Families with children:</strong> the kids' play area and landscaped gardens matter most. Check that play areas are away from roads and parking.</li><li><strong>Fitness-minded buyers:</strong> look at the gym equipment, the pool's size and timings, and the jogging track's length and lighting.</li><li><strong>Senior members:</strong> the senior citizen zone, seating and level paths matter more than a long list.</li></ul>
+<p>Visit on a weekend evening when you can see how busy shared spaces are, and ask the sales team to mark each amenity on the master plan so you can see how far it is from your tower.</p>
+""",
+"united-athila-rera-details": """
+<h2>How to verify the registration yourself</h2>
+<p>You do not have to take our word for it. Open the MahaRERA website, search for the registration number PM1260002602534 and compare what you see with what you were told. The registration page shows the promoter, the land details, the proposed completion date and the quarterly progress updates the promoter has filed.</p>
+<ol><li>Confirm the project name and promoter match the sales material.</li><li>Note the proposed completion date, and any extension recorded later.</li><li>Look at the filed progress updates and compare them with what you see on site.</li><li>Check the complaints section for the project and the promoter.</li></ol>
+<h2>What RERA gives you</h2>
+<p>RERA requires carpet area to be the basis of sale, requires the promoter to declare a completion date, and gives buyers a way to complain if the date is missed. Read the draft agreement for the clauses on possession, delays and cancellation before you pay more than a token.</p>
+""",
+"united-athila-pune-overview": """
+<h2>A rate you can use to compare</h2>
+<p>On the current cost sheet, the starting units work out to about ₹10,860 per sq ft of carpet area for the 2 BHK (₹84.58 lakh for 779 sq ft), ₹10,860 for the 2.5 BHK (₹90.22 lakh for 831 sq ft) and ₹10,850 for the 3 BHK (₹99.63 lakh for 918 sq ft), all-inclusive of stamp duty, registration and GST. This is our own arithmetic on the cost sheet. When you compare with another East Pune project, ask whether its rate is on carpet or saleable area and whether taxes are included, then convert both to the same basis.</p>
+<h2>Questions for your first visit</h2>
+<ul><li>Which towers and floors are available at the starting price?</li><li>What is the declared possession date for the tower you want?</li><li>What are the maintenance and club charges, and when do they start?</li><li>How many parking spaces come with the home?</li></ul>
+""",
+"how-to-read-a-cost-sheet": """
+<h2>A worked example from the cost sheet</h2>
+<p>Take the first 2 BHK on the United Athila cost sheet, with 779 sq ft of carpet area. The agreement value is ₹75,25,000. Stamp duty at 7% adds ₹5,26,750 and GST at 5% adds ₹3,76,250. With registration of ₹30,000, the all-inclusive total is ₹84,58,000. In other words, taxes and registration add about ₹9.33 lakh, roughly 12% on top of the agreement value. If a different project quotes only the agreement value, add about 12% before you compare.</p>
+<h2>What to ask about every line</h2>
+<ul><li>Is the quoted price per sq ft on carpet or saleable area?</li><li>Are floor rise, parking and club charges included or extra?</li><li>Which taxes are included, and at what rate?</li><li>What is the payment schedule, and what triggers each instalment?</li></ul>
+""",
+"what-is-pre-launch-and-early-bird-pricing": """
+<h2>What to check before you pay a pre-launch amount</h2>
+<ul><li>Is the project registered with MahaRERA, and does the number match? Verify it on the MahaRERA website.</li><li>Is the amount refundable, and on what terms, in writing?</li><li>What is it adjusted against in the final price?</li><li>Which units or floors does it reserve, if any?</li></ul>
+<h2>Plan the monthly cost</h2>
+<p>As a rule of thumb, a loan of ₹10 lakh over 20 years costs about ₹8,364 a month at 8%, ₹8,997 at 9% and ₹9,650 at 10%. Multiply by your loan size in lakhs to see the EMI, and keep a reserve for charges, interiors and moving. A discount that tempts you to borrow more than you can comfortably repay is not a saving.</p>
+""",
+"roads-metro-and-airport-near-dhanori": """
+<h2>How to test a commute</h2>
+<p>Pick the three places you will go most often and open each on the map from the project. Set the departure time you would really leave, and note the travel time on a weekday morning, a weekday evening and a weekend. Repeat the test on the day you visit. A route that looks short on a map can be slow at peak time, and the reverse is also true, so measure instead of assuming. Metro and airport timings change as works progress, so check current information before you rely on a plan.</p>
+""",
+"united-athila-floor-plans": """
+<h2>How to read a floor plan</h2>
+<ul><li>Check the carpet area on the plan against the carpet area on the cost sheet for the same unit.</li><li>Look at where the windows and balconies are: a bedroom with no window or a kitchen with no ventilation is a problem on any floor.</li><li>Count the wall space for beds and wardrobes in each bedroom, not just the room size.</li><li>See how far the main door is from the living area and whether passage space eats into the carpet area.</li></ul>
+<p>Ask for the dimensioned plan of the exact unit you are considering, not just the typical plan.</p>
+""",
+"living-in-dhanori-pune": """
+<h2>Checks to make on the ground</h2>
+<p>Visit on a weekday evening and a weekend morning. Watch how the roads around the project handle traffic, find the nearest hospital and school on the map, and time a grocery run. Talk to people who already live nearby about water supply, power cuts and the daily commute, because their answers are worth more than any brochure.</p>
+""",
+}
+
 G = {}
 # ------------------------------------------------------------------ buying guides
 G["2-bhk-vs-2-5-bhk-vs-3-bhk"] = dict(cat="buying-guides", catname="Buying guide", img="towers-courtyard-view", imgw=1600,
@@ -406,7 +455,7 @@ def card(s, depth, tag="h3"):
 
 def guide_page(s):
     g = G[s]; depth = 3; p = rel(depth); path = f"/blog/{g['cat']}/{s}/"
-    body = g["body"]
+    body = g["body"] + EXTRA.get(s, "")
     for u in G:  # never link to a guide that is not published yet
         if u not in PUB: body = re.sub(r'<a href="(?:\.\./)+(?:[a-z-]+/)?%s/">(.*?)</a>' % re.escape(u), r"\1", body)
     heads = re.findall(r"<h2>(.*?)</h2>", body)

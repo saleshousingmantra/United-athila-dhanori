@@ -1,86 +1,170 @@
 {
 "/": {
-"date": "2026-11-27",
-"hash": "e24dbdbf331dfc8ebae80b2cd184b934"
+"date": "2026-11-28",
+"hash": "87251756c1b3b2aea7ac497e76825985"
+},
+"/2-5-bhk-flats-in-dhanori/": {
+"date": "2026-11-28",
+"hash": "0d96964de7a6c20dd189d72ed9b7d783"
+},
+"/2-5-bhk-flats-in-pune/": {
+"date": "2026-11-28",
+"hash": "031b66ad43875760e7ae21491da9ac67"
+},
+"/2-bhk-flats-in-dhanori/": {
+"date": "2026-11-28",
+"hash": "49b0336d7349d99de5e2d1cbe1cad857"
+},
+"/2-bhk-flats-in-pune/": {
+"date": "2026-11-28",
+"hash": "7374168d6a3ace2950489f4622398d41"
+},
+"/3-bhk-flats-in-dhanori/": {
+"date": "2026-11-28",
+"hash": "61df17d7c1efd4ea0a027d75f4c61041"
+},
+"/3-bhk-flats-in-pune/": {
+"date": "2026-11-28",
+"hash": "b467d5e752b25b8e7f4bff1e44d94f4a"
 },
 "/about/": {
-"date": "2026-11-27",
-"hash": "8d228bb6b0982e819538a7500b553767"
+"date": "2026-11-28",
+"hash": "23cd63eb1d657c6551e9e7cd5367d58e"
 },
 "/blog/": {
-"date": "2026-11-27",
-"hash": "5d0e0fb793b25d8ae3292d312e21ce5f"
+"date": "2026-11-28",
+"hash": "841f003070d7f40d3afdf41f8dc9f4d6"
 },
 "/blog/buying-guides/": {
-"date": "2026-11-27",
-"hash": "65f8b217825913d14909549c674a86c6"
+"date": "2026-11-28",
+"hash": "b920b4d45cddfb7d7fcd5af047beaeca"
 },
 "/blog/buying-guides/2-bhk-vs-2-5-bhk-vs-3-bhk/": {
-"date": "2026-11-27",
-"hash": "fba943ac6472f545c13178102eed38f3"
+"date": "2026-11-28",
+"hash": "7f54ec206129fd18451a73c5197e3f82"
 },
 "/blog/buying-guides/how-to-read-a-cost-sheet/": {
-"date": "2026-11-27",
-"hash": "00142f93e13ad9a83345e60a7d8dc6fe"
+"date": "2026-11-28",
+"hash": "93422fd570fa2b8235eaea368bf628cc"
 },
 "/blog/buying-guides/what-is-pre-launch-and-early-bird-pricing/": {
-"date": "2026-11-27",
-"hash": "7892377e35fbf21012109e0b7d3d4b9f"
+"date": "2026-11-28",
+"hash": "a0e1b6cba7652579a0aa0e7a8b9a36a4"
 },
 "/blog/locality/": {
-"date": "2026-11-27",
-"hash": "d8a88292d68e050376fd053b2fae5706"
+"date": "2026-11-28",
+"hash": "1ea763137487d13b1d659b3ec08b1bff"
 },
 "/blog/locality/hospitals-near-dhanori/": {
-"date": "2026-11-27",
-"hash": "c4a1db896ba206213f63dfa7f738639c"
+"date": "2026-11-28",
+"hash": "f3e1e106e1c3bf0185903b3c0e03328e"
 },
 "/blog/locality/living-in-dhanori-pune/": {
-"date": "2026-11-27",
-"hash": "80fb879e171404239060136626226eca"
+"date": "2026-11-28",
+"hash": "b0d0350b403784b3740086780b88f8ed"
 },
 "/blog/locality/roads-metro-and-airport-near-dhanori/": {
-"date": "2026-11-27",
-"hash": "55added78804bf6d11ac9cfa7b9733b2"
+"date": "2026-11-28",
+"hash": "6a9173b9f96f61118070a826fa6b8b2d"
 },
 "/blog/locality/schools-near-dhanori/": {
-"date": "2026-11-27",
-"hash": "d7222d2ed96097726058e4d2e9867719"
+"date": "2026-11-28",
+"hash": "ece3239d3c716efac6c12a368bb92771"
 },
 "/blog/united-athila/": {
-"date": "2026-11-27",
-"hash": "11b16c8245de833f8a00a68daeeda218"
+"date": "2026-11-28",
+"hash": "e8c5e22da519527bc2c177a6c49c8385"
 },
 "/blog/united-athila/united-athila-amenities/": {
-"date": "2026-11-27",
-"hash": "c888329c1a1b842553e1fd264818d66b"
+"date": "2026-11-28",
+"hash": "8250f64707eaecfce1fba53d441d80d1"
 },
 "/blog/united-athila/united-athila-floor-plans/": {
-"date": "2026-11-27",
-"hash": "76b65902a82f69f850187b452e4bbc17"
+"date": "2026-11-28",
+"hash": "419273ae81f563e6e74be4fdfd015f82"
 },
 "/blog/united-athila/united-athila-price-list/": {
-"date": "2026-11-27",
-"hash": "2d0057980697ab18bc28a55dacb4916c"
+"date": "2026-11-28",
+"hash": "0c546c6e893e7631a6e0c7fd2f4a5a19"
 },
 "/blog/united-athila/united-athila-pune-overview/": {
-"date": "2026-11-27",
-"hash": "1a17e29047069fb8b30774d363eced31"
+"date": "2026-11-28",
+"hash": "5900b4bd968fe94db9fb3a72dab2af9a"
 },
 "/blog/united-athila/united-athila-rera-details/": {
-"date": "2026-11-27",
-"hash": "d31f834c90a133fb3045cc329b3b7d22"
+"date": "2026-11-28",
+"hash": "6785096ae7b1f227907d80919957851a"
+},
+"/carpet-area-vs-built-up-vs-super-built-up/": {
+"date": "2026-11-28",
+"hash": "6fdafadbac05b8014df2555d7a95f47f"
 },
 "/cookie-policy/": {
-"date": "2026-11-27",
-"hash": "8bd069023049e07fcb823b4c648f5638"
+"date": "2026-11-28",
+"hash": "abd8e3288499e745d0af919bc8559013"
+},
+"/flat-guides/": {
+"date": "2026-11-28",
+"hash": "e953ccbe6474b1545ca9d379d1c6eb67"
+},
+"/flats-in-dhanori/": {
+"date": "2026-11-28",
+"hash": "3d468185f175afba194af30b4b27ee0a"
+},
+"/flats-in-pune/": {
+"date": "2026-11-28",
+"hash": "4ec1037788f1784f7f6d79e86705006f"
+},
+"/flats-under-1-crore-in-dhanori/": {
+"date": "2026-11-28",
+"hash": "c93f01394a9849ebe944fa869dcaaad5"
+},
+"/flats-under-90-lakh-in-dhanori/": {
+"date": "2026-11-28",
+"hash": "76569d78cb3b46080e300bb917b5b346"
+},
+"/flats-under-95-lakh-in-dhanori/": {
+"date": "2026-11-28",
+"hash": "b2beab993508d4ca81a8c13fa898567b"
+},
+"/home-loan-checklist-for-new-flat/": {
+"date": "2026-11-28",
+"hash": "ff0090187f93ba8e23de9edc1efb1fb0"
+},
+"/home-loan-emi-calculator/": {
+"date": "2026-11-28",
+"hash": "2a855a588da33ef856abaf136e4fbc6c"
 },
 "/privacy-policy/": {
-"date": "2026-11-27",
-"hash": "cf695f124c74e7765b70f869833fa97b"
+"date": "2026-11-28",
+"hash": "42376970a5e5d8a695c09a8c3a0164ea"
 },
 "/sitemap/": {
-"date": "2026-11-27",
-"hash": "d19cbdaa6bd6a97da435a9188328493d"
+"date": "2026-11-28",
+"hash": "d18b492dfce507f9b6ca5f433ec770c8"
+},
+"/total-flat-cost-calculator/": {
+"date": "2026-11-28",
+"hash": "e1f32bdd560c8b31f489a7990dd4e28e"
+},
+"/united-athila-brochure/": {
+"date": "2026-11-28",
+"hash": "07dd2c1ad10955b55b814ea20fa4749c"
+},
+"/united-athila-location-map/": {
+"date": "2026-11-28",
+"hash": "de921883d1f5ead067786cf2ac0181b0"
+},
+"/united-athila-possession-date/": {
+"date": "2026-11-28",
+"hash": "5610b645ee641ace9b41e72233cfcb82"
+},
+"/united-athila-reviews-is-it-worth-buying/": {
+"date": "2026-11-28",
+"hash": "56f919c76f156b8199e0bb2b71a7d430"
+},
+"/united-athila-site-visit-guide/": {
+"date": "2026-11-28",
+"hash": "a4679e6ea80660658627c2001140349d"
 }
 }

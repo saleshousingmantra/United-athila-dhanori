@@ -56,5 +56,11 @@
   "independence": "Because this is a sales channel for the project, treat it as marketing material and not as an independent review. We try to be useful and honest, and we say plainly when something is not confirmed.",
   "contact_id": "contact"
  },
- "css_append": ".section-title:not(.light) .hl,.title-line .hl,.gl-foot b,.gcard small,.gcard .ft em,.dev-rera a,.note a,.legal-links a{color:#8a5a00}\narticle a,article a:visited,.post-body a,.prose a{color:#8a5a00!important;text-decoration:underline}\n.gl-foot small,.v{color:#56655f!important}\n.pn small{color:#8a5a00!important}"
+ "css_append": ".section-title:not(.light) .hl,.title-line .hl,.gl-foot b,.gcard small,.gcard .ft em,.dev-rera a,.note a,.legal-links a{color:#8a5a00}\narticle a,article a:visited,.post-body a,.prose a{color:#8a5a00!important;text-decoration:underline}\n.gl-foot small,.v{color:#56655f!important}\n.pn small{color:#8a5a00!important}",
+ "extra_footer": [
+  [
+   "Flat guides",
+   "flat-guides/"
+  ]
+ ]
 }
