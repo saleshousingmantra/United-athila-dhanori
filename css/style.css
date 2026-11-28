@@ -463,10 +463,6 @@ html.js .rv:not(.in) { opacity: 0; transform: translateY(16px); }
 /* ===== Tablet+ ===== */
 @media (min-width: 768px) {
   :root { --header-h: 72px; }
-  body { padding-bottom: 0; }
-  .mobile-bar { display: none; }
-  .float-wa { display: grid; }
-  .to-top { bottom: calc(90px + env(safe-area-inset-bottom, 0px)); right: calc(26px + env(safe-area-inset-right, 0px)); }
   .call-btn { width: auto; padding: 0 16px; background: var(--green); color: #fff; border-color: var(--green); }
   .call-btn span { display: inline; font-weight: 600; font-size: 14px; }
   .call-btn .ic { width: 18px; height: 18px; color: var(--gold); }

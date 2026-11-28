@@ -273,6 +273,7 @@ def balance_gcards(h):
 
 def misc(h, url):
     h = balance_gcards(h)
+    h = re.sub(r'\s*<a\b[^>]*class="call-btn"[^>]*>.*?</a>', '', h, flags=re.S)  # no Call Now button in the header
     h = h.replace('style="font-size:12px;opacity:.8;margin:8px 0 0"', 'style="font-size:12px;margin:8px 0 0"')
     h = structure(h)
     h = labels(h)
